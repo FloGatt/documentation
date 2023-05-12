@@ -9,7 +9,7 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Документ &mdash; документация CryptPad 5.2</title>
+  <title>Документ &mdash; документация CryptPad 5.3</title>
   
 
   
@@ -58,7 +58,7 @@
             <a href="../../index.html" class="icon icon-home">
               <img src="../../_static/images/CryptPad_docs_logo.svg" class="logo" alt="Logo"/>
               <div class="icon-title">CryptPad</div>
-              <span class="release">Documentation 5.2</span>
+              <span class="release">Documentation 5.3</span>
             </a>
             
 <div role="search">
@@ -77,6 +77,8 @@
 	        		<option value="en">English</option>
               <option value="fr">Français</option>
               <option value="de">Deutsch</option>
+              <option value="ru">Русский</option>
+              <option value="ja">日本語</option>
 	        	</select>
         	</p>
         </div>
@@ -274,7 +276,7 @@
 </li>
 <li class="toctree-l3"><a class="reference internal" href="poll.html">Опрос</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="poll.html#toolbar">Инструменты</a></li>
-<li class="toctree-l4"><a class="reference internal" href="poll.html#edit-mode">Edit mode</a></li>
+<li class="toctree-l4"><a class="reference internal" href="poll.html#edit-mode">Режим редактирования</a></li>
 <li class="toctree-l4"><a class="reference internal" href="poll.html#voting">Voting</a></li>
 <li class="toctree-l4"><a class="reference internal" href="poll.html#export">Экспорт</a></li>
 </ul>
@@ -296,6 +298,7 @@
 <li class="toctree-l4"><a class="reference internal" href="../../admin_guide/installation.html#configuration">Configuration</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../admin_guide/installation.html#daemonization">Daemonization</a><ul>
 <li class="toctree-l5"><a class="reference internal" href="../../admin_guide/installation.html#systemd">Systemd</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../admin_guide/installation.html#freebsd">FreeBSD</a></li>
 </ul>
 </li>
 </ul>
@@ -317,6 +320,7 @@
 <li class="toctree-l4"><a class="reference internal" href="../../admin_guide/customization.html#restricting-guest-access">Restricting guest access</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../admin_guide/customization.html#links-to-terms-of-service-privacy-policy-and-imprint-pages">Links to Terms of Service, Privacy Policy and Imprint pages</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../admin_guide/customization.html#security-hardening">Security Hardening</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../admin_guide/customization.html#dark-theme-switch">Dark theme switch</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="../../admin_guide/customization.html#look-and-feel">Look and feel</a><ul>
@@ -618,7 +622,7 @@
 <p><em class="fa fa-expand"></em> : Используйте полную ширину окна для текстового редактора.</p>
 <p><em class="fa fa-compress"></em> : Используйте уменьшенную ширину «режим страницы» для текстового редактора.</p>
 <p>Чтобы установить значения по умолчанию для этих параметров, например, чтобы контролировать, какие разделы будут видны, когда получатели переходят по общей ссылке на документ, используйте диалоговое окно <strong>Настройки документа</strong>:</p>
-<p><a href="#id1"><span class="problematic" id="id2">|file-о|</span></a> <strong>Файл</strong> &gt; <em class="fa fa-cog"></em> <strong>Настройки документа</strong>.</p>
+<p><em class="fa fa-file-o"></em> <strong>Файл</strong> &gt; <em class="fa fa-cog"></em> <strong>Настройки документа</strong>.</p>
 </section>
 <section id="editing">
 <h2>Редактирование<a class="headerlink" href="#editing" title="Permalink to this heading">¶</a></h2>
@@ -638,7 +642,7 @@
 <section id="import-export">
 <h2>Импорт/Экспорт<a class="headerlink" href="#import-export" title="Permalink to this heading">¶</a></h2>
 <div class="line-block">
-<div class="line"><a href="#id3"><span class="problematic" id="id4">|file-о|</span></a> <strong>Файл</strong> &gt; <em class="fa fa-upload"></em> <strong>Импорт</strong></div>
+<div class="line"><em class="fa fa-file-o"></em> <strong>Файл</strong> &gt; <em class="fa fa-upload"></em> <strong>Импорт</strong></div>
 <div class="line">Поддерживаемые форматы: <code class="docutils literal notranslate"><span class="pre">.html</span></code>.</div>
 </div>
 <div class="line-block">
@@ -647,7 +651,7 @@
 </div>
 <p>Для печати или экспорта в PDF-файл:</p>
 <ol class="arabic simple">
-<li><p><a href="#id5"><span class="problematic" id="id6">|file-о|</span></a> <strong>Файл</strong> &gt; <em class="fa fa-print"></em> <strong>Распечатать</strong>.</p></li>
+<li><p><em class="fa fa-file-o"></em> <strong>Файл</strong> &gt; <em class="fa fa-print"></em> <strong>Распечатать</strong>.</p></li>
 <li><p>Выберите нужный принтер или “печать в файл”.</p></li>
 </ol>
 </section>
@@ -665,7 +669,7 @@
 <li><p><em class="fa fa-reply"></em> <strong>Ответить</strong>: добавляет комментарий в качестве ответа.</p></li>
 <li><p><em class="fa fa-check"></em> <strong>Согласовано</strong>: удаляет комментарий после подтверждения.</p></li>
 </ul>
-<p>Чтобы уведомить контакт в комментарии, упомяните его с помощью <code class="docutils literal notranslate"><span class="pre">&#64;</span></code> и его :ref: <cite>отображаемое имя &lt;user_settings_account&gt;t</cite>.</p>
+<p>Чтобы уведомить контакт в комментарии, упомяните его с помощью <code class="docutils literal notranslate"><span class="pre">&#64;</span></code> и его <a class="reference internal" href="../user_account.html#user-settings-account"><span class="std std-ref">отображаемое имя</span></a>.</p>
 <p>Вы получаете уведомления, когда:</p>
 <ul class="simple">
 <li><p>Кто-то отвечает на один из ваших комментариев.</p></li>
@@ -694,7 +698,7 @@
 
   <div role="contentinfo">
     <p>
-        &copy; Copyright 2022, CryptPad Team.
+        &copy; Copyright 2023, CryptPad Team.
 
     </p>
   </div>
@@ -719,7 +723,7 @@
     <script type="text/javascript">
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'../../',
-            VERSION:'5.2',
+            VERSION:'5.3',
             LANGUAGE:'ru',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',

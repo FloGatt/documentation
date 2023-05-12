@@ -9,7 +9,7 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Слайды &mdash; документация CryptPad 5.2</title>
+  <title>Слайды &mdash; документация CryptPad 5.3</title>
   
 
   
@@ -58,7 +58,7 @@
             <a href="../../index.html" class="icon icon-home">
               <img src="../../_static/images/CryptPad_docs_logo.svg" class="logo" alt="Logo"/>
               <div class="icon-title">CryptPad</div>
-              <span class="release">Documentation 5.2</span>
+              <span class="release">Documentation 5.3</span>
             </a>
             
 <div role="search">
@@ -77,6 +77,8 @@
 	        		<option value="en">English</option>
               <option value="fr">Français</option>
               <option value="de">Deutsch</option>
+              <option value="ru">Русский</option>
+              <option value="ja">日本語</option>
 	        	</select>
         	</p>
         </div>
@@ -274,7 +276,7 @@
 </li>
 <li class="toctree-l3"><a class="reference internal" href="poll.html">Опрос</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="poll.html#toolbar">Инструменты</a></li>
-<li class="toctree-l4"><a class="reference internal" href="poll.html#edit-mode">Edit mode</a></li>
+<li class="toctree-l4"><a class="reference internal" href="poll.html#edit-mode">Режим редактирования</a></li>
 <li class="toctree-l4"><a class="reference internal" href="poll.html#voting">Voting</a></li>
 <li class="toctree-l4"><a class="reference internal" href="poll.html#export">Экспорт</a></li>
 </ul>
@@ -296,6 +298,7 @@
 <li class="toctree-l4"><a class="reference internal" href="../../admin_guide/installation.html#configuration">Configuration</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../admin_guide/installation.html#daemonization">Daemonization</a><ul>
 <li class="toctree-l5"><a class="reference internal" href="../../admin_guide/installation.html#systemd">Systemd</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../admin_guide/installation.html#freebsd">FreeBSD</a></li>
 </ul>
 </li>
 </ul>
@@ -317,6 +320,7 @@
 <li class="toctree-l4"><a class="reference internal" href="../../admin_guide/customization.html#restricting-guest-access">Restricting guest access</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../admin_guide/customization.html#links-to-terms-of-service-privacy-policy-and-imprint-pages">Links to Terms of Service, Privacy Policy and Imprint pages</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../admin_guide/customization.html#security-hardening">Security Hardening</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../admin_guide/customization.html#dark-theme-switch">Dark theme switch</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="../../admin_guide/customization.html#look-and-feel">Look and feel</a><ul>
@@ -646,7 +650,7 @@ https://blog.wax-o.com/2014/04/tutoriel-un-guide-pour-bien-commencer-avec-markdo
 </section>
 <section id="images">
 <h2>Изображения<a class="headerlink" href="#images" title="Permalink to this heading">¶</a></h2>
-<p>Синтаксис Markdown для включения удаленных изображений, например <a href="#id1"><span class="problematic" id="id2">``</span></a>![description](<a class="reference external" href="https://site.com/image.jpg">https://site.com/image.jpg</a>)`, заблокирован CryptPad по соображениям безопасности.</p>
+<p>Синтаксис Markdown для включения удаленных изображений, например <code class="docutils literal notranslate"><span class="pre">![description](https://site.com/image.jpg)</span></code>, заблокирован CryptPad по соображениям безопасности.</p>
 <p><span class="badge-user">Зарегистрированные пользователи</span></p>
 <p>Чтобы вставить изображения из CryptDrive или загрузить новые, используйте команду <em class="fa fa-picture-o"></em> <strong>Вставить</strong> меню панели инструментов.</p>
 <p>См. <a class="reference internal" href="../security.html#remote-content"><span class="std std-ref">Удаленно Размещенный Контент</span></a> для более подробной информации.</p>
@@ -682,7 +686,7 @@ https://blog.wax-o.com/2014/04/tutoriel-un-guide-pour-bien-commencer-avec-markdo
 
   <div role="contentinfo">
     <p>
-        &copy; Copyright 2022, CryptPad Team.
+        &copy; Copyright 2023, CryptPad Team.
 
     </p>
   </div>
@@ -707,7 +711,7 @@ https://blog.wax-o.com/2014/04/tutoriel-un-guide-pour-bien-commencer-avec-markdo
     <script type="text/javascript">
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'../../',
-            VERSION:'5.2',
+            VERSION:'5.3',
             LANGUAGE:'ru',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',

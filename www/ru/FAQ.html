@@ -9,7 +9,7 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Часто задаваемые вопросы &mdash; документация CryptPad 5.2</title>
+  <title>Часто задаваемые вопросы &mdash; документация CryptPad 5.3</title>
   
 
   
@@ -58,7 +58,7 @@
             <a href="index.html" class="icon icon-home">
               <img src="_static/images/CryptPad_docs_logo.svg" class="logo" alt="Logo"/>
               <div class="icon-title">CryptPad</div>
-              <span class="release">Documentation 5.2</span>
+              <span class="release">Documentation 5.3</span>
             </a>
             
 <div role="search">
@@ -77,6 +77,8 @@
 	        		<option value="en">English</option>
               <option value="fr">Français</option>
               <option value="de">Deutsch</option>
+              <option value="ru">Русский</option>
+              <option value="ja">日本語</option>
 	        	</select>
         	</p>
         </div>
@@ -274,7 +276,7 @@
 </li>
 <li class="toctree-l3"><a class="reference internal" href="user_guide/apps/poll.html">Опрос</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="user_guide/apps/poll.html#toolbar">Инструменты</a></li>
-<li class="toctree-l4"><a class="reference internal" href="user_guide/apps/poll.html#edit-mode">Edit mode</a></li>
+<li class="toctree-l4"><a class="reference internal" href="user_guide/apps/poll.html#edit-mode">Режим редактирования</a></li>
 <li class="toctree-l4"><a class="reference internal" href="user_guide/apps/poll.html#voting">Voting</a></li>
 <li class="toctree-l4"><a class="reference internal" href="user_guide/apps/poll.html#export">Экспорт</a></li>
 </ul>
@@ -296,6 +298,7 @@
 <li class="toctree-l4"><a class="reference internal" href="admin_guide/installation.html#configuration">Configuration</a></li>
 <li class="toctree-l4"><a class="reference internal" href="admin_guide/installation.html#daemonization">Daemonization</a><ul>
 <li class="toctree-l5"><a class="reference internal" href="admin_guide/installation.html#systemd">Systemd</a></li>
+<li class="toctree-l5"><a class="reference internal" href="admin_guide/installation.html#freebsd">FreeBSD</a></li>
 </ul>
 </li>
 </ul>
@@ -317,6 +320,7 @@
 <li class="toctree-l4"><a class="reference internal" href="admin_guide/customization.html#restricting-guest-access">Restricting guest access</a></li>
 <li class="toctree-l4"><a class="reference internal" href="admin_guide/customization.html#links-to-terms-of-service-privacy-policy-and-imprint-pages">Links to Terms of Service, Privacy Policy and Imprint pages</a></li>
 <li class="toctree-l4"><a class="reference internal" href="admin_guide/customization.html#security-hardening">Security Hardening</a></li>
+<li class="toctree-l4"><a class="reference internal" href="admin_guide/customization.html#dark-theme-switch">Dark theme switch</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="admin_guide/customization.html#look-and-feel">Look and feel</a><ul>
@@ -633,9 +637,9 @@
 <p>Если Вы забыли пароль для своей учетной записи, но всё ещё авторизованы в системе, вы можете перенести свои данные в новую учетную запись выполнив следующие шаги:</p>
 <ol class="arabic simple">
 <li><p>Находясь в учетной записи от которой утерян пароль, перейдите к: <strong>Меню пользователя</strong> (аватарка в правом верхнем углу) &gt; <em class="fa fa-gear"></em> <strong>Настройки</strong> &gt; <em class="fa fa-hdd-o"></em> <strong>CryptDrive</strong></p></li>
-<li><p>Нажмите кнопку <a href="#id1"><span class="problematic" id="id2">**</span></a>Резервное копирование <a href="#id3"><span class="problematic" id="id4">**</span></a>, чтобы скачать файл, содержащий ключи ко всем документам. (примечание: это отличается от ** Скачать мой Cryptdrive <a href="#id5"><span class="problematic" id="id6">**</span></a>, которое сохраняет содержимое всех отдельных документов)</p></li>
+<li><p>Нажмите кнопку <strong>Резервное копирование</strong>, чтобы скачать файл, содержащий ключи ко всем документам. (примечание: это отличается от <strong>Скачать мой Cryptdrive</strong>, которое сохраняет содержимое всех отдельных документов)</p></li>
 <li><p>В другом браузере зарегистрируйте новую учетную запись с известным паролем</p></li>
-<li><p>Войдя в новую учетную запись: <strong>Меню пользователя</strong> (аватарка в правом верхнем углу) &gt; <em class="fa fa-gear"></em> ** Настройки** &gt; <em class="fa fa-hdd-o"></em> <strong>CryptDrive</strong> и нажмите кнопку <a href="#id1"><span class="problematic" id="id2">**</span></a>Восстановить <a href="#id3"><span class="problematic" id="id4">**</span></a>.</p></li>
+<li><p>Войдя в новую учетную запись: <strong>Меню пользователя</strong> (аватарка в правом верхнем углу) &gt; <em class="fa fa-gear"></em> <strong>Настройки</strong> &gt; <em class="fa fa-hdd-o"></em> <strong>CryptDrive</strong> и нажмите кнопку <strong>Восстановить</strong>.</p></li>
 </ol>
 </section>
 <section id="how-to-import-export-my-documents-to-from-another-platform">
@@ -654,7 +658,7 @@
 <ol class="arabic simple">
 <li><p>Экспортируйте свой документ в формате HTML в имеющемся у Вас программном обеспечении.</p></li>
 <li><p>Сохраните файл на свой компьютер.</p></li>
-<li><p>Откройте новый документ :ref:<a href="#id1"><span class="problematic" id="id2">`</span></a>app_rich_text`на CryptPad (или существующий, чтобы заменить содержимое в нём).</p></li>
+<li><p>Откройте новый документ <a class="reference internal" href="user_guide/apps/richtext.html#app-rich-text"><span class="std std-ref">Документ</span></a> на CryptPad (или существующий, чтобы заменить содержимое в нём).</p></li>
 <li><p><em class="fa fa-file-o"></em> <strong>Файл</strong> &gt;|upload| <strong>Импортировать</strong> и выберите нужный файл.</p></li>
 </ol>
 <p>Для экспорта используйте <em class="fa fa-file-o"></em> <strong>Файл</strong> &gt; <em class="fa fa-download"></em> <strong>Экспорт</strong> и выберите <code class="docutils literal notranslate"><span class="pre">.doc</span></code> в качестве формата.</p>
@@ -665,7 +669,7 @@
 <ol class="arabic simple">
 <li><p>Экспортируйте ваш документ как <code class="docutils literal notranslate"><span class="pre">.xlsx</span></code> или <code class="docutils literal notranslate"><span class="pre">.ods</span></code> в существующем программном обеспечении.</p></li>
 <li><p>Сохраните файл на свой компьютер.</p></li>
-<li><p>Откройте новый документ :ref: <cite>app_sheets</cite> (или существующий, чтобы заменить содержимое).</p></li>
+<li><p>Откройте новый документ <a class="reference internal" href="user_guide/apps/sheets.html#app-sheets"><span class="std std-ref">Таблица</span></a> (или существующий, чтобы заменить содержимое).</p></li>
 <li><p><em class="fa fa-file-o"></em> <strong>Файл</strong> &gt;|upload| <strong>Импортировать</strong> и выберите нужный файл.</p></li>
 </ol>
 <p>Для экспорта используйте <em class="fa fa-file-o"></em> <strong>Файл</strong> &gt; <em class="fa fa-download"></em> <strong>Экспорт</strong> и выберите формат:</p>
@@ -722,7 +726,7 @@
 </section>
 <section id="do-you-accept-cryptocurrencies-for-subscriptions-and-donations">
 <h3>Принимаете ли вы криптовалюты для подписки и пожертвований?<a class="headerlink" href="#do-you-accept-cryptocurrencies-for-subscriptions-and-donations" title="Permalink to this heading">¶</a></h3>
-<p>Мы принимаем платежи в биткоинах. На них распространяется действие :ref: 'доплаты за ручную обработку &lt;faq_manual_payments&gt;', как объяснено в предыдущем вопросе. Кроме того, как компания, зарегистрированная во Франции, мы по закону обязаны запрашивать имя и адрес для выставления счета, а также адрес электронной почты для сообщения о вашей подписке.</p>
+<p>Мы принимаем платежи в биткоинах. На них распространяется действие <a class="reference internal" href="#faq-manual-payments"><span class="std std-ref">доплаты за ручную обработку</span></a>, как объяснено в предыдущем вопросе. Кроме того, как компания, зарегистрированная во Франции, мы по закону обязаны запрашивать имя и адрес для выставления счета, а также адрес электронной почты для сообщения о вашей подписке.</p>
 </section>
 <section id="can-you-provide-a-data-processing-agreement-dpa">
 <h3>Можете ли вы предоставить Соглашение об обработке данных (DPA)?<a class="headerlink" href="#can-you-provide-a-data-processing-agreement-dpa" title="Permalink to this heading">¶</a></h3>
@@ -751,7 +755,7 @@
 
   <div role="contentinfo">
     <p>
-        &copy; Copyright 2022, CryptPad Team.
+        &copy; Copyright 2023, CryptPad Team.
 
     </p>
   </div>
@@ -776,7 +780,7 @@
     <script type="text/javascript">
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'./',
-            VERSION:'5.2',
+            VERSION:'5.3',
             LANGUAGE:'ru',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',

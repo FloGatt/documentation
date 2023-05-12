@@ -9,7 +9,7 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Учетная запись пользователя &mdash; документация CryptPad 5.2</title>
+  <title>Учетная запись пользователя &mdash; документация CryptPad 5.3</title>
   
 
   
@@ -58,7 +58,7 @@
             <a href="../index.html" class="icon icon-home">
               <img src="../_static/images/CryptPad_docs_logo.svg" class="logo" alt="Logo"/>
               <div class="icon-title">CryptPad</div>
-              <span class="release">Documentation 5.2</span>
+              <span class="release">Documentation 5.3</span>
             </a>
             
 <div role="search">
@@ -77,6 +77,8 @@
 	        		<option value="en">English</option>
               <option value="fr">Français</option>
               <option value="de">Deutsch</option>
+              <option value="ru">Русский</option>
+              <option value="ja">日本語</option>
 	        	</select>
         	</p>
         </div>
@@ -274,7 +276,7 @@
 </li>
 <li class="toctree-l3"><a class="reference internal" href="apps/poll.html">Опрос</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="apps/poll.html#toolbar">Инструменты</a></li>
-<li class="toctree-l4"><a class="reference internal" href="apps/poll.html#edit-mode">Edit mode</a></li>
+<li class="toctree-l4"><a class="reference internal" href="apps/poll.html#edit-mode">Режим редактирования</a></li>
 <li class="toctree-l4"><a class="reference internal" href="apps/poll.html#voting">Voting</a></li>
 <li class="toctree-l4"><a class="reference internal" href="apps/poll.html#export">Экспорт</a></li>
 </ul>
@@ -296,6 +298,7 @@
 <li class="toctree-l4"><a class="reference internal" href="../admin_guide/installation.html#configuration">Configuration</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../admin_guide/installation.html#daemonization">Daemonization</a><ul>
 <li class="toctree-l5"><a class="reference internal" href="../admin_guide/installation.html#systemd">Systemd</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../admin_guide/installation.html#freebsd">FreeBSD</a></li>
 </ul>
 </li>
 </ul>
@@ -317,6 +320,7 @@
 <li class="toctree-l4"><a class="reference internal" href="../admin_guide/customization.html#restricting-guest-access">Restricting guest access</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../admin_guide/customization.html#links-to-terms-of-service-privacy-policy-and-imprint-pages">Links to Terms of Service, Privacy Policy and Imprint pages</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../admin_guide/customization.html#security-hardening">Security Hardening</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../admin_guide/customization.html#dark-theme-switch">Dark theme switch</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="../admin_guide/customization.html#look-and-feel">Look and feel</a><ul>
@@ -624,10 +628,10 @@
 <ul class="simple">
 <li><p>Личное и постоянное место для хранения документов.</p></li>
 <li><p>Хранилище файлов для изображений/видео/PDF/и т. д.</p></li>
-<li><p>Дополнительные возможности для управления документами в качестве <span class="xref std std-ref">владельца</span>, задать <a class="reference internal" href="share_and_access.html#access-tab"><span class="std std-ref">срок действия</span></a> или <a class="reference internal" href="share_and_access.html#access-list"><span class="std std-ref">список доступа</span></a>.</p></li>
+<li><p>Дополнительные возможности для управления документами в качестве <a class="reference internal" href="share_and_access.html#owners"><span class="std std-ref">владельца</span></a>: добавить <a class="reference internal" href="share_and_access.html#access-tab"><span class="std std-ref">пароль</span></a>, задать <a class="reference internal" href="share_and_access.html#access-tab"><span class="std std-ref">срок действия</span></a> или <a class="reference internal" href="share_and_access.html#access-list"><span class="std std-ref">список доступа</span></a>.</p></li>
 <li><p>Организация документов в <a class="reference internal" href="drive.html#folders"><span class="std std-ref">папки</span></a>, <a class="reference internal" href="share_and_access.html#shared-folders"><span class="std std-ref">общие папки</span></a>, или с помощью <a class="reference internal" href="drive.html#tags"><span class="std std-ref">тегов</span></a> и <a class="reference internal" href="drive.html#templates"><span class="std std-ref">шаблонов</span></a>.</p></li>
 <li><p>Создание <a class="reference internal" href="collaboration.html#teams"><span class="std std-ref">команд</span></a>.</p></li>
-<li><p>Настройка страницы <a class="reference internal" href="collaboration.html#profile"><span class="std std-ref">профиля</span></a> и списка <a class="reference internal" href="collaboration.html#contacts"><span class="std std-ref">контактов</span></a> для <span class="xref std std-ref">общего доступа &lt;share&gt; к документам</span> и <a class="reference internal" href="collaboration.html#chat-contacts"><span class="std std-ref">чата</span></a>. Уведомления о взаимодействиях между контактами.</p></li>
+<li><p>Настройка страницы <a class="reference internal" href="collaboration.html#profile"><span class="std std-ref">профиля</span></a> и списка <a class="reference internal" href="collaboration.html#contacts"><span class="std std-ref">контактов</span></a> для <a class="reference internal" href="share_and_access.html#share"><span class="std std-ref">общего доступа</span></a> к документам и <a class="reference internal" href="collaboration.html#chat-contacts"><span class="std std-ref">чата</span></a>. Уведомления о взаимодействиях между контактами.</p></li>
 </ul>
 </section>
 <section id="premium-user">
@@ -645,7 +649,7 @@
 <h2>Управление учетными записями<a class="headerlink" href="#account-management" title="Permalink to this heading">¶</a></h2>
 <section id="registration">
 <h3>Регистрация<a class="headerlink" href="#registration" title="Permalink to this heading">¶</a></h3>
-<p>Чтобы зарегистрировать новую учетную запись, перейдите на страницу регистрации: <a href="#id1"><span class="problematic" id="id2">**</span></a>Регистрация ** в правом верхнем углу домашней страницы.</p>
+<p>Чтобы зарегистрировать новую учетную запись, перейдите на страницу регистрации: <strong>Регистрация</strong> в правом верхнем углу домашней страницы.</p>
 <img alt="../_images/registration.png" class="screenshot" src="../_images/registration.png" />
 <p>Заполните следующую информацию:</p>
 <ul class="simple">
@@ -830,7 +834,7 @@
 
   <div role="contentinfo">
     <p>
-        &copy; Copyright 2022, CryptPad Team.
+        &copy; Copyright 2023, CryptPad Team.
 
     </p>
   </div>
@@ -855,7 +859,7 @@
     <script type="text/javascript">
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'../',
-            VERSION:'5.2',
+            VERSION:'5.3',
             LANGUAGE:'ru',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',

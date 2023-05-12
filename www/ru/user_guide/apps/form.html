@@ -9,7 +9,7 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Формы &mdash; документация CryptPad 5.2</title>
+  <title>Формы &mdash; документация CryptPad 5.3</title>
   
 
   
@@ -58,7 +58,7 @@
             <a href="../../index.html" class="icon icon-home">
               <img src="../../_static/images/CryptPad_docs_logo.svg" class="logo" alt="Logo"/>
               <div class="icon-title">CryptPad</div>
-              <span class="release">Documentation 5.2</span>
+              <span class="release">Documentation 5.3</span>
             </a>
             
 <div role="search">
@@ -77,6 +77,8 @@
 	        		<option value="en">English</option>
               <option value="fr">Français</option>
               <option value="de">Deutsch</option>
+              <option value="ru">Русский</option>
+              <option value="ja">日本語</option>
 	        	</select>
         	</p>
         </div>
@@ -274,7 +276,7 @@
 </li>
 <li class="toctree-l3"><a class="reference internal" href="poll.html">Опрос</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="poll.html#toolbar">Инструменты</a></li>
-<li class="toctree-l4"><a class="reference internal" href="poll.html#edit-mode">Edit mode</a></li>
+<li class="toctree-l4"><a class="reference internal" href="poll.html#edit-mode">Режим редактирования</a></li>
 <li class="toctree-l4"><a class="reference internal" href="poll.html#voting">Voting</a></li>
 <li class="toctree-l4"><a class="reference internal" href="poll.html#export">Экспорт</a></li>
 </ul>
@@ -296,6 +298,7 @@
 <li class="toctree-l4"><a class="reference internal" href="../../admin_guide/installation.html#configuration">Configuration</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../admin_guide/installation.html#daemonization">Daemonization</a><ul>
 <li class="toctree-l5"><a class="reference internal" href="../../admin_guide/installation.html#systemd">Systemd</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../admin_guide/installation.html#freebsd">FreeBSD</a></li>
 </ul>
 </li>
 </ul>
@@ -317,6 +320,7 @@
 <li class="toctree-l4"><a class="reference internal" href="../../admin_guide/customization.html#restricting-guest-access">Restricting guest access</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../admin_guide/customization.html#links-to-terms-of-service-privacy-policy-and-imprint-pages">Links to Terms of Service, Privacy Policy and Imprint pages</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../admin_guide/customization.html#security-hardening">Security Hardening</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../admin_guide/customization.html#dark-theme-switch">Dark theme switch</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="../../admin_guide/customization.html#look-and-feel">Look and feel</a><ul>
@@ -608,7 +612,7 @@
 <h2>Роли<a class="headerlink" href="#roles" title="Permalink to this heading">¶</a></h2>
 <p>В Формах используются те же функции совместной работы и конфиденциальности, что и в других приложениях CryptPad. При этом в них есть свои особенности в плане использования: например, кто-то, отвечая на форму, должен иметь возможность редактировать свои собственные ответы, но не ответы других пользователей или саму форму. По этой причине <a class="reference internal" href="../share_and_access.html#share-access-rights"><span class="std std-ref">Права доступа</span></a> при совместном использовании формы отличаются от других приложений. Формы имеют 3 разные роли:</p>
 <ul class="simple">
-<li><p>** Автор <a href="#id1"><span class="problematic" id="id2">**</span></a>: может редактировать вопросы и <a class="reference internal" href="#form-settings"><span class="std std-ref">настройки формы</span></a>.</p></li>
+<li><p><strong>Автор</strong>: может редактировать вопросы и <a class="reference internal" href="#form-settings"><span class="std std-ref">настройки формы</span></a>.</p></li>
 <li><p><strong>Аудитор</strong>: может просматривать ответы на форму независимо от того, являются ли они общедоступными.</p></li>
 <li><p><strong>Участник</strong>: может отвечать на форму и просматривать ответы только после их публикации автором.</p></li>
 </ul>
@@ -639,7 +643,7 @@
 <h4><em class="cptools cptools-form-conditional"></em> Вариативная часть<a class="headerlink" href="#cptools-form-conditional-conditional-section" title="Permalink to this heading">¶</a></h4>
 <p><em class="cptools cptools-form-list-radio"></em> <strong>Выбор</strong> and <em class="cptools cptools-form-list-check"></em> <strong>Флажок</strong> можно использовать для отображения или скрытия дополнительного раздела с вопросами.</p>
 <ol class="arabic simple">
-<li><p>В редакторе форм чтобы добавить <em class="cptools cptools-form-conditional"></em> <strong>Вариативную часть</strong> - используйте кнопки <em class="fa fa-plus"></em> <a href="#id1"><span class="problematic" id="id2">**</span></a>Добавить**между вопросами или список в нижней части формы.</p></li>
+<li><p>В редакторе форм чтобы добавить <em class="cptools cptools-form-conditional"></em> <strong>Вариативную часть</strong> - используйте кнопки <em class="fa fa-plus"></em> <strong>Добавить</strong> между вопросами или список в нижней части формы.</p></li>
 <li><p>Убедитесь, что перед разделом стоит хотя бы один <a class="reference internal" href="#form-q-choice"><span class="std std-ref"> Выбор</span></a> или <a class="reference internal" href="#form-q-checkbox"><span class="std std-ref"> Флажок</span></a> (в противном случае появится подсказка). Только вопросы, размещенные <em>перед</em> разделом, будут доступны для использования в условиях.</p></li>
 <li><p>Добавьте содержимое (текст описания, вопросы) в раздел, используя <em class="fa fa-plus"></em> <strong>Добавить</strong> или перетащив вопросы в область раздела.</p></li>
 <li><p>Установите некоторые условия, используя меню выбора. Все условия И должны быть истинными вместе, только одно из условий ИЛИ должно быть истинным.</p></li>
@@ -684,10 +688,15 @@
 <p>Ответ: один вариант выбора для каждого элемента</p>
 <p>Варианты:</p>
 <ul class="simple">
-<li><p>кнопки <em class="fa fa-plus"></em> <strong>Добавить вариант</strong> и <em class="fa fa-plus"></em> <a href="#id1"><span class="problematic" id="id2">**</span></a>Добавить элемент **</p></li>
+<li><p>кнопки <em class="fa fa-plus"></em> <strong>Добавить вариант</strong> и <em class="fa fa-plus"></em> <strong>Добавить элемент</strong></p></li>
 <li><p>Возьмите рукоятку <em class="fa fa-ellipsis-v"></em> <em class="fa fa-ellipsis-v"></em> и перетащите, чтобы изменить порядок элементов и вариантов</p></li>
 <li><p>Удалить элемент или вариант с помощью <em class="fa fa-times"></em></p></li>
 </ul>
+</section>
+<section id="calendar-date">
+<h4><em class="fa fa-calendar"></em> Date<a class="headerlink" href="#calendar-date" title="Permalink to this heading">¶</a></h4>
+<p><span class="badge-new">New in version 5.3</span></p>
+<p>Response: pick a date and time</p>
 </section>
 <section id="cptools-form-list-check-checkbox">
 <span id="form-q-checkbox"></span><h4><em class="cptools cptools-form-list-check"></em> Флажок<a class="headerlink" href="#cptools-form-list-check-checkbox" title="Permalink to this heading">¶</a></h4>
@@ -706,7 +715,7 @@
 <p>Варианты:</p>
 <ul class="simple">
 <li><p>Максимальное количество выбираемых вариантов (для каждого элемента)</p></li>
-<li><p>кнопки <em class="fa fa-plus"></em> <strong>Добавить вариант</strong> и <em class="fa fa-plus"></em> <a href="#id1"><span class="problematic" id="id2">**</span></a>Добавить элемент **</p></li>
+<li><p>кнопки <em class="fa fa-plus"></em> <strong>Добавить вариант</strong> и <em class="fa fa-plus"></em> <strong>Добавить элемент</strong></p></li>
 <li><p>Возьмите рукоятку <em class="fa fa-ellipsis-v"></em> <em class="fa fa-ellipsis-v"></em> и перетащите, чтобы изменить порядок элементов и вариантов</p></li>
 <li><p>Удалить элемент или вариант с помощью <em class="fa fa-times"></em></p></li>
 </ul>
@@ -720,6 +729,9 @@
 <li><p>Возьмите рукоятку <em class="fa fa-ellipsis-v"></em> <em class="fa fa-ellipsis-v"></em> и перетащите её, чтобы изменить порядок вариантов</p></li>
 <li><p>Удалить вариант с помощью <em class="fa fa-times"></em></p></li>
 </ul>
+<p><span class="badge-new">New in version 5.3</span></p>
+<p>Condorcet:</p>
+<p>Since v5.3 responses can show the results with the <a class="reference external" href="https://en.wikipedia.org/wiki/Condorcet_method">Condorcet method</a>. You can select Schulze or Ranked Pairs to display the winner. The details will also show the number of matches won by each candidates.</p>
 </section>
 <section id="cptools-form-poll-poll">
 <h4><em class="cptools cptools-form-poll"></em> Опрос<a class="headerlink" href="#cptools-form-poll-poll" title="Permalink to this heading">¶</a></h4>
@@ -759,7 +771,7 @@
 <ul class="simple">
 <li><p><em class="fa fa-bar-chart"></em> <strong>Ответы</strong> (количество): переключает на страницу ответов</p></li>
 <li><p><em class="fa fa-eye"></em> <strong>Предварительный просмотр формы</strong>: открывает ссылку участника</p></li>
-<li><p><em class="fa fa-link"></em> <strong>Копировать ссылку</strong>: копирует ссылку участника</p></li>
+<li><p><em class="fa fa-link"></em> <strong>Copy public link</strong>: Copies the participant link</p></li>
 </ul>
 <div class="admonition note">
 <p class="admonition-title">Примечание</p>
@@ -859,7 +871,7 @@
 
   <div role="contentinfo">
     <p>
-        &copy; Copyright 2022, CryptPad Team.
+        &copy; Copyright 2023, CryptPad Team.
 
     </p>
   </div>
@@ -884,7 +896,7 @@
     <script type="text/javascript">
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'../../',
-            VERSION:'5.2',
+            VERSION:'5.3',
             LANGUAGE:'ru',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',

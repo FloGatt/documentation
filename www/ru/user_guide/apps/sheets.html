@@ -9,7 +9,7 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Таблица &mdash; документация CryptPad 5.2</title>
+  <title>Таблица &mdash; документация CryptPad 5.3</title>
   
 
   
@@ -58,7 +58,7 @@
             <a href="../../index.html" class="icon icon-home">
               <img src="../../_static/images/CryptPad_docs_logo.svg" class="logo" alt="Logo"/>
               <div class="icon-title">CryptPad</div>
-              <span class="release">Documentation 5.2</span>
+              <span class="release">Documentation 5.3</span>
             </a>
             
 <div role="search">
@@ -77,6 +77,8 @@
 	        		<option value="en">English</option>
               <option value="fr">Français</option>
               <option value="de">Deutsch</option>
+              <option value="ru">Русский</option>
+              <option value="ja">日本語</option>
 	        	</select>
         	</p>
         </div>
@@ -274,7 +276,7 @@
 </li>
 <li class="toctree-l3"><a class="reference internal" href="poll.html">Опрос</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="poll.html#toolbar">Инструменты</a></li>
-<li class="toctree-l4"><a class="reference internal" href="poll.html#edit-mode">Edit mode</a></li>
+<li class="toctree-l4"><a class="reference internal" href="poll.html#edit-mode">Режим редактирования</a></li>
 <li class="toctree-l4"><a class="reference internal" href="poll.html#voting">Voting</a></li>
 <li class="toctree-l4"><a class="reference internal" href="poll.html#export">Экспорт</a></li>
 </ul>
@@ -296,6 +298,7 @@
 <li class="toctree-l4"><a class="reference internal" href="../../admin_guide/installation.html#configuration">Configuration</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../admin_guide/installation.html#daemonization">Daemonization</a><ul>
 <li class="toctree-l5"><a class="reference internal" href="../../admin_guide/installation.html#systemd">Systemd</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../admin_guide/installation.html#freebsd">FreeBSD</a></li>
 </ul>
 </li>
 </ul>
@@ -317,6 +320,7 @@
 <li class="toctree-l4"><a class="reference internal" href="../../admin_guide/customization.html#restricting-guest-access">Restricting guest access</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../admin_guide/customization.html#links-to-terms-of-service-privacy-policy-and-imprint-pages">Links to Terms of Service, Privacy Policy and Imprint pages</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../admin_guide/customization.html#security-hardening">Security Hardening</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../admin_guide/customization.html#dark-theme-switch">Dark theme switch</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="../../admin_guide/customization.html#look-and-feel">Look and feel</a><ul>
@@ -603,7 +607,7 @@
             
   <section id="spreadsheet">
 <span id="app-sheets"></span><h1>Таблица<a class="headerlink" href="#spreadsheet" title="Permalink to this heading">¶</a></h1>
-<p>Приложение Таблица в CryptPad представляет собой интеграцию <a class="reference external" href="https://www.onlyoffice.com/">OnlyOffice</a>. Чтобы узнать больше о деталях этой интеграции, см.:ref:<cite>FAQ_OOintegration</cite>.</p>
+<p>Приложение Таблица в CryptPad представляет собой интеграцию <a class="reference external" href="https://www.onlyoffice.com/">OnlyOffice</a>. Чтобы узнать больше о деталях этой интеграции, см. <a class="reference internal" href="../../FAQ.html#faq-oointegration"><span class="std std-ref">Какова связь между CryptPad и OnlyOffice?</span></a>.</p>
 <img alt="../../_images/app-sheets-preview.png" class="screenshot" src="../../_images/app-sheets-preview.png" />
 <section id="documentation">
 <h2>Документация<a class="headerlink" href="#documentation" title="Permalink to this heading">¶</a></h2>
@@ -620,7 +624,7 @@
 <section id="undo-and-collaboration-modes">
 <h2>Режимы отмены правок и совместной работы<a class="headerlink" href="#undo-and-collaboration-modes" title="Permalink to this heading">¶</a></h2>
 <img alt="../../_images/app-sheets-collab-mode.png" class="screenshot" src="../../_images/app-sheets-collab-mode.png" />
-<p>OnlyOffice предоставляет два режима совместного редактирования в электронных таблицах, которые влияют на то, как изменения синхронизируются между пользователями и доступна ли функция ** Отменить <a href="#id1"><span class="problematic" id="id2">**</span></a>.</p>
+<p>OnlyOffice предоставляет два режима совместного редактирования в электронных таблицах, которые влияют на то, как изменения синхронизируются между пользователями и доступна ли функция <strong>Отменить</strong>.</p>
 <ul class="simple">
 <li><p>** Быстрый режим ** включен по умолчанию. Новые правки всех пользователей автоматически синхронизируются с другими по мере их внесения. В этом режиме отменить его невозможно.</p></li>
 <li><p>** Строгий режим ** позволяет каждому пользователю вносить изменения независимо. Измененные ячейки 'блокируются' для других до тех пор, пока автор вручную не сохранит их изменения. Новые изменения синхронизируются с другими пользователями только после сохранения. В этом режиме можно отменить изменения, которые еще не были сохранены. Когда пользователь сохраняет свои изменения, другим пользователям предлагается сохранить их, чтобы получить последние изменения.</p></li>
@@ -648,7 +652,7 @@
 <li><p><em class="fa fa-step-forward"></em> шаг вперед на одну правку</p></li>
 <li><p><em class="fa fa-fast-forward"></em> следующая версия</p></li>
 </ul>
-<p>Функциональность для восстановления и публикации версии, а также все, что касается <span class="xref std std-ref">Снимков</span>, работает так же, как и в <a class="reference internal" href="general.html#document-history"><span class="std std-ref">других приложениях</span></a>.</p>
+<p>Функциональность для восстановления и публикации версии, а также всё, что касается <a class="reference internal" href="general.html#snapshots"><span class="std std-ref">Снимки</span></a>, работает так же, как и в <a class="reference internal" href="general.html#document-history"><span class="std std-ref">других приложениях</span></a>.</p>
 </section>
 <section id="printing">
 <span id="sheets-printing"></span><h2>Печать<a class="headerlink" href="#printing" title="Permalink to this heading">¶</a></h2>
@@ -688,7 +692,7 @@
 
   <div role="contentinfo">
     <p>
-        &copy; Copyright 2022, CryptPad Team.
+        &copy; Copyright 2023, CryptPad Team.
 
     </p>
   </div>
@@ -713,7 +717,7 @@
     <script type="text/javascript">
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'../../',
-            VERSION:'5.2',
+            VERSION:'5.3',
             LANGUAGE:'ru',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',

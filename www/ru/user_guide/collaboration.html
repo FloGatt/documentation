@@ -9,7 +9,7 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Совместная работа / Взаимодействие &mdash; документация CryptPad 5.2</title>
+  <title>Совместная работа / Взаимодействие &mdash; документация CryptPad 5.3</title>
   
 
   
@@ -58,7 +58,7 @@
             <a href="../index.html" class="icon icon-home">
               <img src="../_static/images/CryptPad_docs_logo.svg" class="logo" alt="Logo"/>
               <div class="icon-title">CryptPad</div>
-              <span class="release">Documentation 5.2</span>
+              <span class="release">Documentation 5.3</span>
             </a>
             
 <div role="search">
@@ -77,6 +77,8 @@
 	        		<option value="en">English</option>
               <option value="fr">Français</option>
               <option value="de">Deutsch</option>
+              <option value="ru">Русский</option>
+              <option value="ja">日本語</option>
 	        	</select>
         	</p>
         </div>
@@ -274,7 +276,7 @@
 </li>
 <li class="toctree-l3"><a class="reference internal" href="apps/poll.html">Опрос</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="apps/poll.html#toolbar">Инструменты</a></li>
-<li class="toctree-l4"><a class="reference internal" href="apps/poll.html#edit-mode">Edit mode</a></li>
+<li class="toctree-l4"><a class="reference internal" href="apps/poll.html#edit-mode">Режим редактирования</a></li>
 <li class="toctree-l4"><a class="reference internal" href="apps/poll.html#voting">Voting</a></li>
 <li class="toctree-l4"><a class="reference internal" href="apps/poll.html#export">Экспорт</a></li>
 </ul>
@@ -296,6 +298,7 @@
 <li class="toctree-l4"><a class="reference internal" href="../admin_guide/installation.html#configuration">Configuration</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../admin_guide/installation.html#daemonization">Daemonization</a><ul>
 <li class="toctree-l5"><a class="reference internal" href="../admin_guide/installation.html#systemd">Systemd</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../admin_guide/installation.html#freebsd">FreeBSD</a></li>
 </ul>
 </li>
 </ul>
@@ -317,6 +320,7 @@
 <li class="toctree-l4"><a class="reference internal" href="../admin_guide/customization.html#restricting-guest-access">Restricting guest access</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../admin_guide/customization.html#links-to-terms-of-service-privacy-policy-and-imprint-pages">Links to Terms of Service, Privacy Policy and Imprint pages</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../admin_guide/customization.html#security-hardening">Security Hardening</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../admin_guide/customization.html#dark-theme-switch">Dark theme switch</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="../admin_guide/customization.html#look-and-feel">Look and feel</a><ul>
@@ -627,7 +631,7 @@
 <p>Чтобы просмотреть профиль другого пользователя:</p>
 <ul class="simple">
 <li><p><strong>Список пользователей</strong> <em class="fa fa-users"></em> <em class="fa fa-eye"></em> документа, к которому они подключены &gt; <code class="docutils literal notranslate"><span class="pre">Нажмите</span></code> на их имени,</p></li>
-<li><p>Если пользователь есть в вашем списке <a class="reference internal" href="#contacts"><span class="std std-ref">контаков</span></a>. Меню пользователя (аватар в правом верхнем углу) &gt; <em class="fa fa-address-book"></em> <a href="#id1"><span class="problematic" id="id2">**</span></a>Контакты ** &gt;``Дважды щелкните`` на его имени в списке.</p></li>
+<li><p>Если пользователь есть в вашем списке <a class="reference internal" href="#contacts"><span class="std std-ref">контаков</span></a>. Меню пользователя (аватар в правом верхнем углу) &gt; <em class="fa fa-address-book"></em> <strong>Контакты</strong> &gt;``Дважды щелкните`` на его имени в списке.</p></li>
 </ul>
 <p>На странице профиля другого пользователя:</p>
 <ul class="simple">
@@ -690,7 +694,7 @@
 <li><p><em class="fa fa-info-circle"></em> <strong>Свойства</strong></p></li>
 <li><p><em class="fa fa-trash-o"></em> <strong>Удалить</strong></p></li>
 </ul>
-<p>: ref:<cite>teams</cite> также могут иметь календари, доступные для всех участников. Просто поделитесь календарем с командой, чтобы добавить его:</p>
+<p><a class="reference internal" href="#teams"><span class="std std-ref">Команды</span></a> также могут иметь календари, доступные для всех участников. Просто поделитесь календарем с командой, чтобы добавить его:</p>
 <p><em class="fa fa-share-alt"></em> <strong>Share</strong> &gt; <em class="fa fa-address-book"></em> <strong>Contacts</strong> &gt; Select the team</p>
 <p><span class="badge-user">Зарегистрированные пользователи</span></p>
 <p>При просмотре календаря, доступного по ссылке, добавьте его в свои календари с помощью: <em class="fa fa-calendar-plus-o"></em> <strong>Импортировать этот календарь</strong></p>
@@ -754,7 +758,7 @@
 </ol>
 <section id="team-drive">
 <h3>Диск команды<a class="headerlink" href="#team-drive" title="Permalink to this heading">¶</a></h3>
-<p>Хранилище документов команды похоже на :ref:<a href="#id1"><span class="problematic" id="id2">`</span></a>диск CryptDrive &lt;drive&gt;`обычного пользователя, но совместно используется членами команды.</p>
+<p>Хранилище документов команды похоже на <a class="reference internal" href="drive.html#drive"><span class="std std-ref">диск CryptDrive</span></a> обычного пользователя, но совместно используется членами команды.</p>
 </section>
 <section id="team-members">
 <h3>Члены команды<a class="headerlink" href="#team-members" title="Permalink to this heading">¶</a></h3>
@@ -836,7 +840,7 @@
 <p><span class="badge-owner">Владельцы команды</span></p>
 <ul class="simple">
 <li><p><strong>Открытый ключ подписи</strong>: используется для идентификации команды в инстансах, предлагающих подписки.</p></li>
-<li><p>** Название команды <a href="#id1"><span class="problematic" id="id2">**</span></a>: изменить название команды.</p></li>
+<li><p><strong>Название команды</strong>: изменить название команды.</p></li>
 <li><p><strong>Аватар команды</strong>: Импорт/изменение аватара для команды.</p></li>
 <li><p><strong>Загрузить диск команды</strong>: сохраните содержимое всех документов в CryptDrive. Когда это возможно, это делается в формате, доступном для чтения другим программным обеспечением. Некоторые приложения создают файлы, которые доступны для чтения только с помощью CryptPad.</p></li>
 <li><p><strong>Удаление команды</strong>: безвозвратное удаление команды и всех её документов.</p></li>
@@ -865,7 +869,7 @@
 
   <div role="contentinfo">
     <p>
-        &copy; Copyright 2022, CryptPad Team.
+        &copy; Copyright 2023, CryptPad Team.
 
     </p>
   </div>
@@ -890,7 +894,7 @@
     <script type="text/javascript">
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'../',
-            VERSION:'5.2',
+            VERSION:'5.3',
             LANGUAGE:'ru',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',

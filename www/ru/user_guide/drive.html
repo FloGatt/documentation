@@ -9,7 +9,7 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>CryptDrive &mdash; документация CryptPad 5.2</title>
+  <title>CryptDrive &mdash; документация CryptPad 5.3</title>
   
 
   
@@ -58,7 +58,7 @@
             <a href="../index.html" class="icon icon-home">
               <img src="../_static/images/CryptPad_docs_logo.svg" class="logo" alt="Logo"/>
               <div class="icon-title">CryptPad</div>
-              <span class="release">Documentation 5.2</span>
+              <span class="release">Documentation 5.3</span>
             </a>
             
 <div role="search">
@@ -77,6 +77,8 @@
 	        		<option value="en">English</option>
               <option value="fr">Français</option>
               <option value="de">Deutsch</option>
+              <option value="ru">Русский</option>
+              <option value="ja">日本語</option>
 	        	</select>
         	</p>
         </div>
@@ -274,7 +276,7 @@
 </li>
 <li class="toctree-l3"><a class="reference internal" href="apps/poll.html">Опрос</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="apps/poll.html#toolbar">Инструменты</a></li>
-<li class="toctree-l4"><a class="reference internal" href="apps/poll.html#edit-mode">Edit mode</a></li>
+<li class="toctree-l4"><a class="reference internal" href="apps/poll.html#edit-mode">Режим редактирования</a></li>
 <li class="toctree-l4"><a class="reference internal" href="apps/poll.html#voting">Voting</a></li>
 <li class="toctree-l4"><a class="reference internal" href="apps/poll.html#export">Экспорт</a></li>
 </ul>
@@ -296,6 +298,7 @@
 <li class="toctree-l4"><a class="reference internal" href="../admin_guide/installation.html#configuration">Configuration</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../admin_guide/installation.html#daemonization">Daemonization</a><ul>
 <li class="toctree-l5"><a class="reference internal" href="../admin_guide/installation.html#systemd">Systemd</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../admin_guide/installation.html#freebsd">FreeBSD</a></li>
 </ul>
 </li>
 </ul>
@@ -317,6 +320,7 @@
 <li class="toctree-l4"><a class="reference internal" href="../admin_guide/customization.html#restricting-guest-access">Restricting guest access</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../admin_guide/customization.html#links-to-terms-of-service-privacy-policy-and-imprint-pages">Links to Terms of Service, Privacy Policy and Imprint pages</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../admin_guide/customization.html#security-hardening">Security Hardening</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../admin_guide/customization.html#dark-theme-switch">Dark theme switch</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="../admin_guide/customization.html#look-and-feel">Look and feel</a><ul>
@@ -665,7 +669,7 @@
 <span id="id2"></span><h3>Удаление<a class="headerlink" href="#deleting" title="Permalink to this heading">¶</a></h3>
 <p>Есть два способа удалить документ на CryptPad:</p>
 <ul class="simple">
-<li><p><a href="#id1"><span class="problematic" id="id2">|</span></a>trash | ** Удаление ** документа означает, что он перестает отображаться на диске, но остается в базе данных. Документ остается на диске других пользователей, которые его сохранили. Документ можно восстановить на диске, используя <a class="reference internal" href="#drive-history"><span class="std std-ref">историю</span></a> .</p></li>
+<li><p><em class="fa fa-trash"></em> <strong>Удаление</strong> документа означает, что он перестает отображаться на диске, но остается в базе данных. Документ остается на диске других пользователей, которые его сохранили. Документ можно восстановить на диске, используя <a class="reference internal" href="#drive-history"><span class="std std-ref">историю</span></a> .</p></li>
 <li><p><em class="cptools cptools-destroy"></em> <strong>Уничтожение</strong> документа навсегда удаляет его из базы данных. Документ удаляется со всех дисков, на которых он хранится, и его невозможно восстановить с помощью истории дисков. <span class="badge-owner">Владельцы документа</span></p></li>
 </ul>
 <div class="admonition note">
@@ -702,11 +706,11 @@
 <span id="drive-history"></span><h2>История<a class="headerlink" href="#history" title="Permalink to this heading">¶</a></h2>
 <p>История диска сохраняется и при необходимости может быть восстановлена. С диска:</p>
 <ol class="arabic simple">
-<li><p><cite>Нажмите</cite> на кнопку <a href="#id1"><span class="problematic" id="id2">|</span></a>history | история в правом верхнем углу (под аватаркой).</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Нажмите</span></code> на кнопку <em class="fa fa-history"></em> история в правом верхнем углу (под аватаркой).</p></li>
 <li><p>Используйте стрелки <em class="fa fa-fast-backward"></em> <em class="fa fa-step-backward"></em> и <em class="fa fa-step-forward"></em> <em class="fa fa-fast-forward"></em> для пошагового просмотра истории.</p></li>
 <li><p>Восстановите отображаемую версию с помощью <em class="fa fa-check"></em> <strong>Восстановить</strong> или выйдите из истории без восстановления с помощью <em class="fa fa-times"></em> <strong>Закрыть</strong> .</p></li>
 </ol>
-<p>Для экономии места в хранилище историю CryptDrive можно удалить через :ref: <cite>настройки пользователя &lt;user_settings_cryptDrive&gt;</cite>.</p>
+<p>Для экономии места в хранилище историю CryptDrive можно удалить через <a class="reference internal" href="user_account.html#user-settings-cryptdrive"><span class="std std-ref">настройки пользователя</span></a>.</p>
 <div class="admonition note">
 <p class="admonition-title">Примечание</p>
 <p><a class="reference internal" href="share_and_access.html#shared-folders"><span class="std std-ref">Shared folders</span></a> have their own history, separate from CryptDrive history. Restoring the history of the drive does not affect shared folders, conversely the history of a shared folder can be restored without affecting the rest of the drive.</p>
@@ -737,7 +741,7 @@
 <p>Чтобы создать шаблон:</p>
 <ol class="arabic simple">
 <li><p>Выберите вкладку <em class="cptools cptools-template"></em> <strong>Шаблоны</strong> на диске.</p></li>
-<li><p><em class="fa fa-plus"></em> <a href="#id1"><span class="problematic" id="id2">**</span></a>Новый ** на панели инструментов.</p></li>
+<li><p><em class="fa fa-plus"></em> <strong>Новый</strong> на панели инструментов.</p></li>
 </ol>
 <p>либо</p>
 <ol class="arabic simple">
@@ -776,7 +780,7 @@
 
   <div role="contentinfo">
     <p>
-        &copy; Copyright 2022, CryptPad Team.
+        &copy; Copyright 2023, CryptPad Team.
 
     </p>
   </div>
@@ -801,7 +805,7 @@
     <script type="text/javascript">
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'../',
-            VERSION:'5.2',
+            VERSION:'5.3',
             LANGUAGE:'ru',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',

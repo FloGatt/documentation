@@ -9,7 +9,7 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Общая информация &mdash; документация CryptPad 5.2</title>
+  <title>Общая информация &mdash; документация CryptPad 5.3</title>
   
 
   
@@ -58,7 +58,7 @@
             <a href="../../index.html" class="icon icon-home">
               <img src="../../_static/images/CryptPad_docs_logo.svg" class="logo" alt="Logo"/>
               <div class="icon-title">CryptPad</div>
-              <span class="release">Documentation 5.2</span>
+              <span class="release">Documentation 5.3</span>
             </a>
             
 <div role="search">
@@ -77,6 +77,8 @@
 	        		<option value="en">English</option>
               <option value="fr">Français</option>
               <option value="de">Deutsch</option>
+              <option value="ru">Русский</option>
+              <option value="ja">日本語</option>
 	        	</select>
         	</p>
         </div>
@@ -274,7 +276,7 @@
 </li>
 <li class="toctree-l3"><a class="reference internal" href="poll.html">Опрос</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="poll.html#toolbar">Инструменты</a></li>
-<li class="toctree-l4"><a class="reference internal" href="poll.html#edit-mode">Edit mode</a></li>
+<li class="toctree-l4"><a class="reference internal" href="poll.html#edit-mode">Режим редактирования</a></li>
 <li class="toctree-l4"><a class="reference internal" href="poll.html#voting">Voting</a></li>
 <li class="toctree-l4"><a class="reference internal" href="poll.html#export">Экспорт</a></li>
 </ul>
@@ -296,6 +298,7 @@
 <li class="toctree-l4"><a class="reference internal" href="../../admin_guide/installation.html#configuration">Configuration</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../admin_guide/installation.html#daemonization">Daemonization</a><ul>
 <li class="toctree-l5"><a class="reference internal" href="../../admin_guide/installation.html#systemd">Systemd</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../admin_guide/installation.html#freebsd">FreeBSD</a></li>
 </ul>
 </li>
 </ul>
@@ -317,6 +320,7 @@
 <li class="toctree-l4"><a class="reference internal" href="../../admin_guide/customization.html#restricting-guest-access">Restricting guest access</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../admin_guide/customization.html#links-to-terms-of-service-privacy-policy-and-imprint-pages">Links to Terms of Service, Privacy Policy and Imprint pages</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../admin_guide/customization.html#security-hardening">Security Hardening</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../admin_guide/customization.html#dark-theme-switch">Dark theme switch</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="../../admin_guide/customization.html#look-and-feel">Look and feel</a><ul>
@@ -610,8 +614,8 @@
 <li><p>Из любого места на CryptPad: <code class="docutils literal notranslate"><span class="pre">Ctrl+e</span></code>.</p></li>
 <li><p>Из CryptDrive:</p>
 <ul>
-<li><p><em class="fa fa-plus"></em> <a href="#id1"><span class="problematic" id="id2">**</span></a>Новый ** на панели инструментов.</p></li>
-<li><p><em class="fa fa-plus"></em> <a href="#id1"><span class="problematic" id="id2">**</span></a>Новый ** в нижней части списка файлов/сетки.</p></li>
+<li><p><em class="fa fa-plus"></em> <strong>Новый</strong> на панели инструментов.</p></li>
+<li><p><em class="fa fa-plus"></em> <strong>Новый</strong> в нижней части списка файлов/сетки.</p></li>
 </ul>
 </li>
 <li><p>Из документа: <em class="fa fa-file-o"></em> <strong>Файл</strong> &gt; <em class="fa fa-plus"></em> <strong>Новый</strong>.</p></li>
@@ -621,7 +625,7 @@
 <p>Окно создания документа предлагает несколько параметров при создании новых документов.</p>
 <ul class="simple">
 <li><p><strong>Собственный документ</strong>: создайте новый документ как <a class="reference internal" href="../share_and_access.html#owners"><span class="std std-ref">владелец</span></a>. Если документ создан без владельца, этот параметр изменить нельзя.</p></li>
-<li><p><a href="#id1"><span class="problematic" id="id2">**</span></a>Краткосрочный документ <a href="#id3"><span class="problematic" id="id4">**</span></a>: укажите дату истечения срока действия, после которой документ будет уничтожен. Этот параметр не может быть изменен после создания документа.</p></li>
+<li><p><strong>Краткосрочный документ</strong>: укажите дату истечения срока действия, после которой документ будет уничтожен. Этот параметр не может быть изменен после создания документа.</p></li>
 <li><p><strong>Добавить пароль</strong>: Защитите общий доступ к документу с помощью <a class="reference internal" href="../security.html#passwords"><span class="std std-ref">пароля</span></a>. Этот параметр можно изменить позже в меню <a class="reference internal" href="../share_and_access.html#access"><span class="std std-ref">Доступ</span></a>.</p></li>
 <li><p><strong>Шаблон</strong>: Вы можете начать с пустого документа или использовать <a class="reference internal" href="../drive.html#templates"><span class="std std-ref">шаблон</span></a> в качестве отправной точки.</p></li>
 </ul>
@@ -633,7 +637,7 @@
 </ul>
 <p>либо</p>
 <ul class="simple">
-<li><p>В CryptDrive: перетащите документ в папку <a href="#id8"><span class="problematic" id="id9">|cptools|</span></a> <strong>Шаблоны</strong>.</p></li>
+<li><p>В CryptDrive: перетащите документ в папку <em class="cptools cptools-template"></em> <strong>Шаблоны</strong>.</p></li>
 </ul>
 </div>
 </section>
@@ -663,7 +667,7 @@
 </figure>
 <p>История изменений документов сохраняется и при необходимости может быть восстановлена. Чтобы просмотреть и восстановить историю документа:</p>
 <ol class="arabic simple">
-<li><p><a href="#id10"><span class="problematic" id="id11">|file-о|</span></a> <strong>Файл</strong> &gt; <em class="fa fa-history"></em> <strong>История</strong>.</p></li>
+<li><p><em class="fa fa-file-o"></em> <strong>Файл</strong> &gt; <em class="fa fa-history"></em> <strong>История</strong>.</p></li>
 <li><p>Используйте стрелки для навигации:</p>
 <ul class="simple">
 <li><p><em class="fa fa-step-backward"></em> и <em class="fa fa-step-forward"></em> между каждым редактированием.</p></li>
@@ -694,7 +698,7 @@
 <ul class="simple">
 <li><p>кнопка <em class="fa fa-camera"></em> на панели инструментов.</p></li>
 <li><p>В диалоговом окне укажите имя снимка.</p></li>
-<li><p><a href="#id12"><span class="problematic" id="id13">|камера|</span></a> <strong>Новый снимок</strong></p></li>
+<li><p><em class="fa fa-camera"></em> <strong>Новый снимок</strong></p></li>
 </ul>
 </section>
 <section id="snapshots">
@@ -708,21 +712,21 @@
 <p>Снимки - это определенные моменты в истории изменений документа, именованные для удобства использования.</p>
 <p>Чтобы создать снимок текущего состояния документа:</p>
 <ul class="simple">
-<li><p><a href="#id14"><span class="problematic" id="id15">|file-о|</span></a> <strong>Файл</strong> &gt; <em class="fa fa-camera"></em> <strong>Снимки</strong></p></li>
+<li><p><em class="fa fa-file-o"></em> <strong>Файл</strong> &gt; <em class="fa fa-camera"></em> <strong>Снимки</strong></p></li>
 <li><p>В диалоговом окне укажите имя снимка.</p></li>
-<li><p><a href="#id16"><span class="problematic" id="id17">|камера|</span></a> <strong>Новый снимок</strong></p></li>
+<li><p><em class="fa fa-camera"></em> <strong>Новый снимок</strong></p></li>
 </ul>
 <p>Чтобы создать снимок из версии в истории документа, см. выше <a class="reference internal" href="#document-history"><span class="std std-ref">снимок из истории</span></a>.</p>
 <p>Чтобы просмотреть и восстановить снимок:</p>
 <ul class="simple">
-<li><p><a href="#id18"><span class="problematic" id="id19">|file-о|</span></a> <strong>Файл</strong> &gt; <em class="fa fa-camera"></em> <strong>Снимки</strong></p></li>
+<li><p><em class="fa fa-file-o"></em> <strong>Файл</strong> &gt; <em class="fa fa-camera"></em> <strong>Снимки</strong></p></li>
 <li><p>В диалоговом окне <code class="docutils literal notranslate"><span class="pre">Щелкните</span></code> по снимку в списке и <em class="fa fa-eye"></em> <strong>Вид</strong>.</p></li>
 <li><p>Снимок откроется в новом окне.</p></li>
 <li><p><em class="fa fa-check"></em> <strong>Восстановить</strong> или <em class="fa fa-times"></em> <strong>Закрыть</strong></p></li>
 </ul>
 <p>Чтобы удалить снимок:</p>
 <ul class="simple">
-<li><p><a href="#id20"><span class="problematic" id="id21">|file-о|</span></a> <strong>Файл</strong> &gt; <em class="fa fa-camera"></em> <strong>Снимки</strong></p></li>
+<li><p><em class="fa fa-file-o"></em> <strong>Файл</strong> &gt; <em class="fa fa-camera"></em> <strong>Снимки</strong></p></li>
 <li><p>В диалоговом окне <code class="docutils literal notranslate"><span class="pre">Щелкните</span></code> снимок в списке и <em class="fa fa-trash"></em> <strong>Удалить</strong>.</p></li>
 </ul>
 <div class="admonition warning">
@@ -778,7 +782,7 @@
 
   <div role="contentinfo">
     <p>
-        &copy; Copyright 2022, CryptPad Team.
+        &copy; Copyright 2023, CryptPad Team.
 
     </p>
   </div>
@@ -803,7 +807,7 @@
     <script type="text/javascript">
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'../../',
-            VERSION:'5.2',
+            VERSION:'5.3',
             LANGUAGE:'ru',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',
