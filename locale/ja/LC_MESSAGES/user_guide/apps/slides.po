@@ -8,22 +8,22 @@ msgstr ""
 "Project-Id-Version: CryptPad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-11-22 10:53+0000\n"
-"PO-Revision-Date: 2023-02-16 16:02+0000\n"
+"PO-Revision-Date: 2023-08-10 10:28+0000\n"
 "Last-Translator: Suguru Hirahara <d4bb0a95-96c1-4662-9d31-a5e520a01a09@hostux"
 ".ninja>\n"
 "Language-Team: Japanese <http://weblate.cryptpad.fr/projects/user-guide/"
 "application-slides/ja/>\n"
-"Language: jp\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.1\n"
+"X-Generator: Weblate 4.17\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../user_guide/apps/slides.rst:4
 msgid "Slides"
-msgstr ""
+msgstr "スライド"
 
 #: ../../user_guide/apps/slides.rst:6
 msgid ""
@@ -37,13 +37,15 @@ msgstr "ツールバー"
 
 #: ../../user_guide/apps/slides.rst:14
 msgid "|wrench| **Tools**: Show/hide the text editor toolbar."
-msgstr ""
+msgstr "|wrench| **ツール**\\ ：テキストエディターのツールを表示または非表示。"
 
 #: ../../user_guide/apps/slides.rst:16
 msgid ""
 "|picture-o| **Insert**: Add an image to the document. The image can be "
 "chosen in the drive or uploaded. :badge_user:`Logged in users`"
 msgstr ""
+"|picture-o| **挿入**\\ ：画像をドキュメントに追加。画像はドライブから選択する"
+"かアップロードできます。 :badge_user:`ログイン済ユーザー`"
 
 #: ../../user_guide/apps/slides.rst:18
 msgid ""
@@ -60,8 +62,9 @@ msgid "|play-circle| **Présenter**: Launch the slide presentation in full windo
 msgstr ""
 
 #: ../../user_guide/apps/slides.rst:25
+#, fuzzy
 msgid "Writing slides with Markdown"
-msgstr ""
+msgstr "マークダウンでスライドを作成"
 
 #: ../../user_guide/apps/slides.rst:27
 msgid ""
@@ -83,11 +86,11 @@ msgstr ""
 
 #: ../../user_guide/apps/slides.rst:41
 msgid "Theme"
-msgstr ""
+msgstr "テーマ"
 
 #: ../../user_guide/apps/slides.rst:43
 msgid "|gear| **Options**:"
-msgstr ""
+msgstr "|gear| **オプション**:"
 
 #: ../../user_guide/apps/slides.rst:45
 msgid "**Layout**: Toggle slide numbers, date, title, and transitions."
@@ -113,27 +116,27 @@ msgstr ""
 
 #: ../../user_guide/apps/slides.rst:54
 msgid "Import/Export"
-msgstr ""
+msgstr "インポート/エクスポート"
 
 #: ../../user_guide/apps/slides.rst:56
 msgid "|file-o| **File** > |upload| **Import**."
-msgstr ""
+msgstr "|file-o| **ファイル** > |upload| **インポート**。"
 
 #: ../../user_guide/apps/slides.rst:57
 msgid "Supported formats: Any plain text file."
-msgstr ""
+msgstr "サポートするフォーマット: プレーンテキストファイル。"
 
 #: ../../user_guide/apps/slides.rst:59
 msgid "|file-o| **File** > |download| **Export**."
-msgstr ""
+msgstr "|file-o| **ファイル** > |download| **エクスポート**。"
 
 #: ../../user_guide/apps/slides.rst:60
 msgid "Supported formats: ``.md``."
-msgstr ""
+msgstr "サポートするフォーマット: ``.md``。"
 
 #: ../../user_guide/apps/slides.rst:63
 msgid "Images"
-msgstr ""
+msgstr "画像"
 
 #: ../../user_guide/apps/slides.rst:65
 msgid ""

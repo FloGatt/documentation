@@ -5,18 +5,20 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version:  CryptPad\n"
+"Project-Id-Version: CryptPad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-12 11:55+0100\n"
-"PO-Revision-Date: 2023-02-16 16:02+0000\n"
-"Last-Translator: Suguru Hirahara "
-"<d4bb0a95-96c1-4662-9d31-a5e520a01a09@hostux.ninja>\n"
-"Language: jp\n"
-"Language-Team: Japanese <http://weblate.cryptpad.fr/projects/user-"
-"guide/user_account/ja/>\n"
+"POT-Creation-Date: 2023-08-10 12:41+0100\n"
+"PO-Revision-Date: 2023-08-10 15:09+0000\n"
+"Last-Translator: Suguru Hirahara <d4bb0a95-96c1-4662-9d31-a5e520a01a09@hostux"
+".ninja>\n"
+"Language-Team: Japanese <http://weblate.cryptpad.fr/projects/user-guide/"
+"user_account/ja/>\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.17\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../user_guide/user_account.rst:2
@@ -30,7 +32,11 @@ msgid ""
 " view, retrieve or reset your password**. Therefore it is important that "
 "you make a note of your password in a safe place separate from your "
 "CryptPad account."
-msgstr "CryptPadでは、あなたとあなたの知人のみが読み取れるようにデータを暗号化します。そのため**サービスの管理者に、あなたのパスワードを閲覧、取得、リセットすることはできません**。したがって、CryptPadのアカウントとは別の安全な場所にパスワードを記録しておくのが重要です。"
+msgstr ""
+"CryptPadでは、あなたとあなたの知人のみが読み取れるようにデータを暗号化します"
+"。そのため\\ **サービスの管理者に、あなたのパスワードを閲覧、取得、リセットす"
+"ることはできません**\\ 。したがって、CryptPadのアカウントとは別の安全な場所に"
+"パスワードを記録しておくことが重要です。"
 
 #: ../../user_guide/user_account.rst:6
 msgid ""
@@ -61,7 +67,8 @@ msgstr "未登録のユーザーは、絵文字の動物またはアバター（
 msgid ""
 "No personal information is necessary to use CryptPad without registering."
 " However, functionality is reduced:"
-msgstr "登録せずCryptPadを使用するのに個人情報は必要ありませんが、機能が制限されます："
+msgstr "登録せずCryptPadを使用する際に個人情報は必要ありませんが、以下へと機能が制限"
+"されます。"
 
 #: ../../user_guide/user_account.rst:20
 msgid "Access to all applications."
@@ -102,7 +109,7 @@ msgstr "ドキュメントファイルの個人用の保存スペース（使用
 
 #: ../../user_guide/user_account.rst:33
 msgid "File storage for images/videos/PDF/etc…"
-msgstr "画像、動画、PDFなどのファイルの保管が可能。"
+msgstr "画像、動画、PDFなどのファイルの保管。"
 
 #: ../../user_guide/user_account.rst:34
 msgid ""
@@ -110,6 +117,9 @@ msgid ""
 ":ref:`password <access_tab>`, an :ref:`expiry date <access_tab>`, or an "
 ":ref:`access list <access_list>`."
 msgstr ""
+":ref:`所有者 <owners>`\\ としてドキュメントを管理する際のオプションの設定。\\"
+" :ref:`パスワード <access_tab>`\\ や\\ :ref:`有効期限 <access_tab>`\\ "
+"を追加したり\\ :ref:`アクセスリスト <access_list>`\\ を設定したりできます。"
 
 #: ../../user_guide/user_account.rst:35
 msgid ""
@@ -117,10 +127,13 @@ msgid ""
 "folders <shared_folders>`, or with :ref:`tags <tags>` and :ref:`templates"
 " <templates>`."
 msgstr ""
+":ref:`フォルダー <folders>`\\ 、\\ :ref:`共有フォルダー <shared_folders>`\\ "
+"、 :ref:`タグ <tags>`\\ 、\\ :ref:`テンプレート <templates>`\\ "
+"によるドキュメントの整理。"
 
 #: ../../user_guide/user_account.rst:36
 msgid "Creation of :ref:`teams <teams>`."
-msgstr ""
+msgstr ":ref:`チーム <teams>`\\ の作成。"
 
 #: ../../user_guide/user_account.rst:37
 msgid ""
@@ -134,7 +147,7 @@ msgstr ""
 msgid "Premium user"
 msgstr "プレミアムユーザー"
 
-#: ../../user_guide/user_account.rst:42 ../../user_guide/user_account.rst:188
+#: ../../user_guide/user_account.rst:42 ../../user_guide/user_account.rst:203
 msgid "(only on cryptpad.fr)"
 msgstr "（cryptpad.frでのみ）"
 
@@ -152,7 +165,7 @@ msgstr "管理者、サポートチームによる優先サポート。"
 
 #: ../../user_guide/user_account.rst:47
 msgid "Support the development and sustainability of CryptPad."
-msgstr ""
+msgstr "CryptPadの持続的な開発のサポート。"
 
 #: ../../user_guide/user_account.rst:50
 msgid "Account management"
@@ -166,11 +179,12 @@ msgstr "登録"
 msgid ""
 "To register a new account, go to the registration page: **Register** at "
 "the top right of the home page."
-msgstr "新しいアカウントを登録するには、登録ページを開いてください。トップページの右上にある**登録**から開けます。"
+msgstr "新しいアカウントを登録するには、登録ページを開いてください。"
+"トップページの右上にある\\ **登録**\\ から開けます。"
 
 #: ../../user_guide/user_account.rst:60
 msgid "Fill out the following information:"
-msgstr ""
+msgstr "次の情報を入力してください。"
 
 #: ../../user_guide/user_account.rst:62
 msgid ""
@@ -178,6 +192,9 @@ msgid ""
 "different from the **Display name** visible by other users. The "
 "**Username** cannot be changed once the account is created."
 msgstr ""
+"**ユーザー名**\\ ：CryptPadにログインする際に使用する名前。"
+"他のユーザーに表示される\\ **表示名**\\ とは異なります。\\ **ユーザー名**\\ "
+"は後から変更することはできません。"
 
 #: ../../user_guide/user_account.rst:65
 msgid ""
@@ -193,17 +210,19 @@ msgstr ""
 msgid ""
 "**Password**: It is recommended to use a strong password. The password "
 "can be changed in :ref:`user settings <user_settings>`."
-msgstr "**パスワード**：強力なパスワードの使用を推奨します。パスワードは :ref:`ユーザー設定 <user_settings>` から変更できます。"
+msgstr ""
+"**パスワード**\\ ：強力なパスワードの使用を推奨します。パスワードは\\ :ref:`"
+"ユーザー設定 <user_settings>`\\ から変更できます。"
 
 #: ../../user_guide/user_account.rst:74
 msgid ""
 "Important: CryptPad administrators cannot view, retrieve or reset your "
 "password if it is lost or forgotten."
-msgstr "重要：CryptPadの管理者は、紛失したパスワードを閲覧、復元、リセットすることができません。"
+msgstr "重要：CryptPadの管理者に、紛失したパスワードを閲覧、復元、リセットすることはできません。"
 
 #: ../../user_guide/user_account.rst:76
 msgid "**Terms of service**: Read and accept the terms of service."
-msgstr "**利用規約**：利用規約を確認し、同意。"
+msgstr "**利用規約**\\ ：利用規約を確認し、同意。"
 
 #: ../../user_guide/user_account.rst:78 ../../user_guide/user_account.rst:87
 msgid "Optional:"
@@ -213,39 +232,42 @@ msgstr "任意："
 msgid ""
 "**Import pads from your anonymous session**: If you have created "
 "documents as a non-registered user you can import them into your account."
-msgstr ""
+msgstr "**匿名セッションからパッドをインポート**：未登録のユーザーとして作成したドキュメントを、あなたのアカウントにインポートすることができます。"
 
 #: ../../user_guide/user_account.rst:83
 msgid "Logging in"
-msgstr ""
+msgstr "ログイン"
 
 #: ../../user_guide/user_account.rst:85
 msgid ""
 "To log in to CryptPad visit the **log in** page (at the top right of the "
 "home page), and fill in the username and password used at registration."
 msgstr ""
+"CryptPadにログインするには\\ **ログイン**\\ ページを開き（ホームページの右上"
+"より）、登録時に設定したユーザー名とパスワードを入力してください。"
 
 #: ../../user_guide/user_account.rst:94
 msgid "Settings"
 msgstr "設定"
 
-#: ../../user_guide/user_account.rst:96
+#: ../../user_guide/user_account.rst:98
 msgid ""
 "The account settings are found in the user menu (avatar at the top right)"
 " > |gear| **Settings**."
-msgstr ""
-
-#: ../../user_guide/user_account.rst:101
-msgid "Account"
-msgstr ""
+msgstr "アカウントの設定はユーザーメニュー（右上のアバター） > |gear| **設定**\\ "
+"から確認できます。"
 
 #: ../../user_guide/user_account.rst:103
+msgid "Account"
+msgstr "アカウント"
+
+#: ../../user_guide/user_account.rst:105
 msgid ""
 "**Account name**: Username chosen at registration. This name cannot be "
 "changed. :badge_user:`Logged in users`"
-msgstr ""
+msgstr "**アカウント名**: 登録時に指定したユーザー名。アカウント名は変更できません。:badge_user:`ログイン済ユーザー`"
 
-#: ../../user_guide/user_account.rst:104
+#: ../../user_guide/user_account.rst:106
 msgid ""
 "**Public Signing Key**: Used by instance administrators and/or on "
 "instances that offer subscriptions. This is the only data about your "
@@ -253,14 +275,14 @@ msgid ""
 ":badge_user:`Logged in users`"
 msgstr ""
 
-#: ../../user_guide/user_account.rst:105
+#: ../../user_guide/user_account.rst:107
 msgid ""
 "**Display Name**: Name displayed to other users, for example when you "
 "collaborate on documents. To change this name enter a new name and click "
 "on **Save**. :badge_user:`Logged in users`"
 msgstr ""
 
-#: ../../user_guide/user_account.rst:106
+#: ../../user_guide/user_account.rst:108
 msgid ""
 "**Language**: Language used in the CryptPad interface. To change the "
 "language of CryptPad pick a new language in the drop-down menu. CryptPad "
@@ -269,7 +291,7 @@ msgid ""
 "translations can be incomplete and/or contain errors."
 msgstr ""
 
-#: ../../user_guide/user_account.rst:107
+#: ../../user_guide/user_account.rst:109
 msgid ""
 "**Automatic Download limit**: Maximum size in megabytes (MB) for "
 "automatically loading media elements (images, videos, pdf) embedded into "
@@ -277,55 +299,70 @@ msgid ""
 "manually. Use \"-1\" to always load the media elements automatically."
 msgstr ""
 
-#: ../../user_guide/user_account.rst:108
+#: ../../user_guide/user_account.rst:110
 msgid ""
 "**Change your password**: Enter your current password and confirm the new"
 " password by typing it twice. :badge_user:`Logged in users`"
-msgstr ""
+msgstr "**パスワードの変更**：現在のパスワードを入力し、新しいパスワードを2回入力して承認してください。 :badge_user:`ログイン済ユーザー`"
 
-#: ../../user_guide/user_account.rst:109
+#: ../../user_guide/user_account.rst:111
+#, fuzzy
 msgid ""
 "**Account deletion**: Option to permanently delete your account and all "
 "of its documents. **Delete your account** and confirm. "
 ":badge_user:`Logged in users`"
 msgstr ""
-
-#: ../../user_guide/user_account.rst:114
-msgid "Confidentiality"
-msgstr ""
+"**アカウントの削除**：アカウントと全ドキュメントを完全に削除するオプションです。**アカウントを削除**から承認してください。 "
+":badge_user:`ログイン済ユーザー`"
 
 #: ../../user_guide/user_account.rst:116
+msgid "Security & Privacy"
+msgstr ""
+
+#: ../../user_guide/user_account.rst:118
 msgid ""
 "**Close remote sessions**: Log out of all sessions except the one from "
 "which this option is activated. (see also :ref:`remote_disconnect`) "
 ":badge_user:`Logged in users`"
 msgstr ""
 
-#: ../../user_guide/user_account.rst:117
-msgid ""
-"**Pad storage in CryptDrive**: Manages if documents you visit are "
-"automatically stored in your CryptDrive. If no one :ref:`owns <owners>` a"
-" document you add to your CryptDrive, it counts against your storage "
-"quota."
-msgstr ""
-
 #: ../../user_guide/user_account.rst:119
-msgid "**Automatic**: All the pads you visit are stored in your CryptDrive."
-msgstr ""
-
-#: ../../user_guide/user_account.rst:120
 msgid ""
-"**Manual (always ask)**: If you have not stored a pad yet, you will be "
-"asked if you want to store them in your CryptDrive."
+"**Two-Factor Authentication (2FA)**: Protect your account with an "
+"additional verification code provided by an authenticator app of your "
+"choice.   :badge_user:`Logged in users` :badge_new:`New in version 5.4`"
 msgstr ""
 
 #: ../../user_guide/user_account.rst:121
-msgid ""
-"**Manual (never ask)** Pads are not stored automatically in your "
-"Cryptpad. The option to store them will be hidden."
+msgid "To activate 2FA:"
 msgstr ""
 
 #: ../../user_guide/user_account.rst:123
+msgid "Enter your account password"
+msgstr ""
+
+#: ../../user_guide/user_account.rst:124
+msgid "Save the recovery code"
+msgstr ""
+
+#: ../../user_guide/user_account.rst:125
+msgid ""
+"Snap the QR code with a 2FA app of your choice (or copy the address and "
+"paste into your app)"
+msgstr ""
+
+#: ../../user_guide/user_account.rst:126
+msgid "Enter the verification code to confirm"
+msgstr ""
+
+#: ../../user_guide/user_account.rst:128
+#, fuzzy
+msgid ""
+"**Change your password**: Change your account's password. Enter your "
+"current password, and confirm the new password by typing it twice"
+msgstr "**パスワードの変更**：現在のパスワードを入力し、新しいパスワードを2回入力して承認してください。 :badge_user:`ログイン済ユーザー`"
+
+#: ../../user_guide/user_account.rst:129
 msgid ""
 "**Safe links**: When this setting is active, the link in your browser’s "
 "address bar does not provide access to the document unless the recipient "
@@ -334,7 +371,7 @@ msgid ""
 " to copy links to documents."
 msgstr ""
 
-#: ../../user_guide/user_account.rst:125
+#: ../../user_guide/user_account.rst:131
 msgid ""
 "CryptPad includes the keys to decrypt your documents in their links. "
 "Anyone with access to your browsing history can potentially read your "
@@ -346,35 +383,84 @@ msgid ""
 "in your address bar whenever possible."
 msgstr ""
 
-#: ../../user_guide/user_account.rst:127
+#: ../../user_guide/user_account.rst:133
 msgid ""
 "**Feedback**: CryptPad can send anonymised usage feedback to the server "
 "in order to improve the user experience. The content of documents is "
 "never shared. This option is disabled by default."
+msgstr "**フィードバック**：CryptPadはユーザー経験の向上のため、使用状況に関する匿名のフィードバックを送信することができます。ドキュメントの内容は決して共有されません。このオプションは既定で無効になっています。"
+
+#: ../../user_guide/user_account.rst:134
+msgid ""
+"**Cache**: CryptPad stores parts of your documents in your browser's "
+"memory in order to save network usage and improve loading times. You can "
+"disable the cache if your device doesn't have a lot of free storage "
+"space. For security reasons, the cache is always cleared when you log "
+"out, but you can clear it manually if you want to reclaim storage space "
+"on your machine."
 msgstr ""
 
-#: ../../user_guide/user_account.rst:130
+#: ../../user_guide/user_account.rst:135
+msgid ""
+"**Destroy all owned documents**: All documents where you are the sole "
+"owner will be permanently destroyed"
+msgstr ""
+
+#: ../../user_guide/user_account.rst:138
 msgid "Appearance"
-msgstr ""
+msgstr "表示モード"
 
-#: ../../user_guide/user_account.rst:132
+#: ../../user_guide/user_account.rst:140
 msgid ""
 "**Color theme**: determines the theme (light or dark) used across "
 "CryptPad. By default this follows the operating system and/or browser "
 "setting, but it can also be set manually."
-msgstr ""
+msgstr "**テーマ色**：CryptPadのテーマ色（ライトまたはダーク）を決定します。既定では、この設定はOSまたはブラウザーの設定に従いますが、手動で設定することもできます。"
 
-#: ../../user_guide/user_account.rst:137
+#: ../../user_guide/user_account.rst:145
 msgid "CryptDrive"
 msgstr "CryptDrive"
 
-#: ../../user_guide/user_account.rst:139
+#: ../../user_guide/user_account.rst:147
+msgid ""
+"**Homepage redirection**: Automatic redirection from the home page to the"
+" drive when logged in is no longer enabled by default"
+msgstr ""
+
+#: ../../user_guide/user_account.rst:148
 msgid ""
 "**Tips**: Help messages in the CryptPad interface. Click on **Reset** to "
 "display them again if they have been dismissed."
 msgstr ""
+"**ヒント**\\ ：CryptPadのインターフェースに関するヘルプメッセージです。\\ "
+"**リセット**\\ "
+"をクリックすると、閉じられたヒントを再度表示することができます。"
 
-#: ../../user_guide/user_account.rst:140
+#: ../../user_guide/user_account.rst:149
+msgid ""
+"**Pad storage in CryptDrive**: Manages if documents you visit are "
+"automatically stored in your CryptDrive. If no one :ref:`owns <owners>` a"
+" document you add to your CryptDrive, it counts against your storage "
+"quota."
+msgstr ""
+
+#: ../../user_guide/user_account.rst:151
+msgid "**Automatic**: All the pads you visit are stored in your CryptDrive."
+msgstr "**自動**: 開いた全てのパッドをあなたのCryptDriveに保存します。"
+
+#: ../../user_guide/user_account.rst:152
+msgid ""
+"**Manual (always ask)**: If you have not stored a pad yet, you will be "
+"asked if you want to store them in your CryptDrive."
+msgstr "**手動（常に確認）**: 保存していないドキュメントにアクセスした際、CryptDriveに保存するかどうかを確認します。"
+
+#: ../../user_guide/user_account.rst:153
+msgid ""
+"**Manual (never ask)** Pads are not stored automatically in your "
+"Cryptpad. The option to store them will be hidden."
+msgstr "**手動（確認しない）**: パッドはCryptPadに自動で保存されません。保存オプションは表示されません。"
+
+#: ../../user_guide/user_account.rst:155
 msgid ""
 "**Duplicated owned pads**: When you move your owned pads to a shared "
 "folder, a copy is kept in your CryptDrive to ensure that you retain your "
@@ -383,7 +469,7 @@ msgid ""
 "displayed in its previous location."
 msgstr ""
 
-#: ../../user_guide/user_account.rst:141
+#: ../../user_guide/user_account.rst:156
 msgid ""
 "**Thumbnails**: To help navigating the CryptDrive in :ref:`grid mode "
 "<drive_display>`, CryptPad can create thumbnails of documents and store "
@@ -392,18 +478,18 @@ msgid ""
 "deletes all existing thumbnails."
 msgstr ""
 
-#: ../../user_guide/user_account.rst:142
+#: ../../user_guide/user_account.rst:157
 msgid "**Backup**: Two types of backups are available."
-msgstr ""
+msgstr "**バックアップ**：2種類のバックアップが利用できます。"
 
-#: ../../user_guide/user_account.rst:144
+#: ../../user_guide/user_account.rst:159
 msgid ""
 "**Backup** only saves the keys of documents in the CryptDrive, not their "
 "content. This option is designed to save access to documents and "
 "**Restore** it in another session."
 msgstr ""
 
-#: ../../user_guide/user_account.rst:145
+#: ../../user_guide/user_account.rst:160
 msgid ""
 "**Download my CryptDrive** saves the content of all documents in the "
 "CryptDrive. When possible, this is done in a format that is readable by "
@@ -411,14 +497,16 @@ msgid ""
 " CryptPad."
 msgstr ""
 
-#: ../../user_guide/user_account.rst:147
+#: ../../user_guide/user_account.rst:162
 msgid ""
 "**Import**: If pads have been created as a non-registered user prior to "
 "logging in, they can be imported to the CryptDrive. :badge_user:`Logged "
 "in users`"
 msgstr ""
+"**インポート**：ログイン前に未登録ユーザーとしてパッドを作成した場合、CryptDriveにインポートすることができます。 "
+":badge_user:`Logged in users`"
 
-#: ../../user_guide/user_account.rst:148
+#: ../../user_guide/user_account.rst:163
 msgid ""
 "**Delete History**: The history of the CryptDrive and notifications can "
 "be deleted to save storage space. This does not affect the history of "
@@ -426,11 +514,11 @@ msgid ""
 "<document_properties>` dialog."
 msgstr ""
 
-#: ../../user_guide/user_account.rst:153
+#: ../../user_guide/user_account.rst:168
 msgid "Cursor"
-msgstr ""
+msgstr "カーソル"
 
-#: ../../user_guide/user_account.rst:155
+#: ../../user_guide/user_account.rst:170
 msgid ""
 "**Cursor color**: Change the color of your cursor. This is used to "
 "identify you while collaborating on documents. It also determines the "
@@ -438,114 +526,101 @@ msgid ""
 " in Code documents."
 msgstr ""
 
-#: ../../user_guide/user_account.rst:156
+#: ../../user_guide/user_account.rst:171
 msgid ""
 "**Share my cursor position**: Display or hide the exact position of your "
 "cursor to other users."
 msgstr ""
 
-#: ../../user_guide/user_account.rst:157
+#: ../../user_guide/user_account.rst:172
 msgid ""
 "**Display other users’ cursor position (BETA)**: Display or hide the "
 "position of other users’ cursors."
 msgstr ""
 
-#: ../../user_guide/user_account.rst:162
+#: ../../user_guide/user_account.rst:177
 msgid "Rich Text"
 msgstr "リッチテキスト"
 
-#: ../../user_guide/user_account.rst:164
+#: ../../user_guide/user_account.rst:179
 msgid "User settings for the :ref:`app_rich_text` application."
-msgstr ""
+msgstr ":ref:`app_rich_text`\\ アプリケーションのユーザー設定。"
 
-#: ../../user_guide/user_account.rst:166
+#: ../../user_guide/user_account.rst:181
 msgid ""
 "**Editor’s maximum width**: Switch between page mode (default) that "
 "limits the width of the text editor, and using the full width of the "
 "screen."
 msgstr ""
 
-#: ../../user_guide/user_account.rst:167
+#: ../../user_guide/user_account.rst:182
 msgid ""
 "**Spellcheck**: Enable spellcheck in Rich Text documents. Spelling errors"
 " are underlined and suggested corrections are available through ``Ctrl + "
 "Right click`` on the word to correct."
 msgstr ""
 
-#: ../../user_guide/user_account.rst:168
+#: ../../user_guide/user_account.rst:183
 msgid ""
 "**Comment notifications**: Disable notifications when another user "
 "replies to one of your comments."
 msgstr ""
 
-#: ../../user_guide/user_account.rst:173
+#: ../../user_guide/user_account.rst:188
 msgid "Code"
-msgstr ""
+msgstr "コード"
 
-#: ../../user_guide/user_account.rst:175
+#: ../../user_guide/user_account.rst:190
 msgid "User settings for the :ref:`app_code` application."
-msgstr ""
+msgstr ":ref:`app_code`\\ アプリケーションのユーザー設定。"
 
-#: ../../user_guide/user_account.rst:177
+#: ../../user_guide/user_account.rst:192
 msgid ""
 "**Code editor indentation (spaces)**: Choose the number of spaces for "
 "each level of indentation."
 msgstr ""
 
-#: ../../user_guide/user_account.rst:178
+#: ../../user_guide/user_account.rst:193
 msgid ""
 "**Indent using tabs (instead of spaces)**: Insert tabs rather than spaces"
 " with the ``Tab`` key."
 msgstr ""
 
-#: ../../user_guide/user_account.rst:179
+#: ../../user_guide/user_account.rst:194
 msgid ""
 "**Auto-close brackets**: Automatically insert a closing character ``)`` "
 "when brackets are opened with ``(`` (also works with ``[``, ``'``, "
 "``\"``)."
 msgstr ""
 
-#: ../../user_guide/user_account.rst:180
+#: ../../user_guide/user_account.rst:195
 msgid "**Font size in the code editor**: Set the size of text in the code editor."
 msgstr ""
 
-#: ../../user_guide/user_account.rst:181
+#: ../../user_guide/user_account.rst:196
 msgid ""
 "**Spellcheck**: Underline spelling mistakes in the code editor, "
 "correction suggestions are available through ``Right click`` on the word "
 "to correct."
 msgstr ""
 
-#: ../../user_guide/user_account.rst:186
+#: ../../user_guide/user_account.rst:201
 msgid "Subscription"
 msgstr "定額利用"
 
-#: ../../user_guide/user_account.rst:190
+#: ../../user_guide/user_account.rst:205
 msgid "Redirects to the account page."
 msgstr ""
 
-#: ../../user_guide/user_account.rst:195
-msgid "Support"
-msgstr "サポート"
-
-#: ../../user_guide/user_account.rst:197
-#, fuzzy
-msgid ":badge_new:`New in version 5.3`"
-msgstr ":badge_user:`ログイン済ユーザー`"
-
-#: ../../user_guide/user_account.rst:199
-msgid "This section has been moved to its :ref:`dedicated page <support>`."
-msgstr ""
-
-#: ../../user_guide/user_account.rst:204
+#: ../../user_guide/user_account.rst:210
 msgid "Notifications"
 msgstr "通知"
 
-#: ../../user_guide/user_account.rst:206
+#: ../../user_guide/user_account.rst:212
 msgid ":badge_user:`Logged in users`"
 msgstr ":badge_user:`ログイン済ユーザー`"
 
-#: ../../user_guide/user_account.rst:208
+#: ../../user_guide/user_account.rst:214
 msgid ""
 "CryptPad notifies you when your contacts interact with you. Notifications"
 " are displayed by the bell |bell-o| next to the avatar (at the top-"
@@ -553,49 +628,49 @@ msgid ""
 " count is displayed."
 msgstr ""
 
-#: ../../user_guide/user_account.rst:210
+#: ../../user_guide/user_account.rst:216
 msgid "|bell| Bell drop down menu:"
 msgstr ""
 
-#: ../../user_guide/user_account.rst:212
+#: ../../user_guide/user_account.rst:218
 msgid "Browse unread notifications."
 msgstr "未読の通知を表示。"
 
-#: ../../user_guide/user_account.rst:213
+#: ../../user_guide/user_account.rst:219
 msgid "Delete a notification with |times|."
 msgstr ""
 
-#: ../../user_guide/user_account.rst:214
+#: ../../user_guide/user_account.rst:220
 msgid ""
 "**Open notifications panel**: View all notifications and notification "
 "history."
 msgstr ""
 
-#: ../../user_guide/user_account.rst:217
+#: ../../user_guide/user_account.rst:223
 msgid "On the notifications panel page:"
 msgstr ""
 
-#: ../../user_guide/user_account.rst:219
+#: ../../user_guide/user_account.rst:225
 msgid "Select the type of notification to view:"
 msgstr ""
 
-#: ../../user_guide/user_account.rst:221
+#: ../../user_guide/user_account.rst:227
 msgid "|bars| All."
 msgstr ""
 
-#: ../../user_guide/user_account.rst:222
+#: ../../user_guide/user_account.rst:228
 msgid "|user| Contact Requests."
 msgstr ""
 
-#: ../../user_guide/user_account.rst:223
+#: ../../user_guide/user_account.rst:229
 msgid "|cptools pad| Shared with me."
 msgstr ""
 
-#: ../../user_guide/user_account.rst:224
+#: ../../user_guide/user_account.rst:230
 msgid "|archive| History."
 msgstr ""
 
-#: ../../user_guide/user_account.rst:226
+#: ../../user_guide/user_account.rst:232
 msgid "|trash|: Delete notifications."
 msgstr ""
 
@@ -634,3 +709,14 @@ msgstr ""
 #~ "**Send**."
 #~ msgstr ""
 
+#~ msgid "Confidentiality"
+#~ msgstr ""
+
+#~ msgid "Support"
+#~ msgstr "サポート"
+
+#~ msgid ":badge_new:`New in version 5.3`"
+#~ msgstr ":badge_user:`バージョン5.3の新機能`"
+
+#~ msgid "This section has been moved to its :ref:`dedicated page <support>`."
+#~ msgstr ""

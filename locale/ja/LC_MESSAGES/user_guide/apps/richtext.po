@@ -8,17 +8,17 @@ msgstr ""
 "Project-Id-Version: CryptPad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-11-22 10:53+0000\n"
-"PO-Revision-Date: 2023-02-16 16:02+0000\n"
+"PO-Revision-Date: 2023-08-10 11:38+0000\n"
 "Last-Translator: Suguru Hirahara <d4bb0a95-96c1-4662-9d31-a5e520a01a09@hostux"
 ".ninja>\n"
 "Language-Team: Japanese <http://weblate.cryptpad.fr/projects/user-guide/"
 "application-richtext/ja/>\n"
-"Language: jp\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.1\n"
+"X-Generator: Weblate 4.17\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../user_guide/apps/richtext.rst:4
@@ -30,6 +30,8 @@ msgid ""
 "The Rich Text application in CryptPad is an integration of `CKEditor "
 "<https://ckeditor.com/>`__."
 msgstr ""
+"CryptPadのリッチテキストアプリケーションは\\ `CKEditor <https://ckeditor.com/"
+">`__\\ に基づいています。"
 
 #: ../../user_guide/apps/richtext.rst:12
 msgid "Toolbar"
@@ -37,17 +39,19 @@ msgstr "ツールバー"
 
 #: ../../user_guide/apps/richtext.rst:14
 msgid "|wrench| **Tools**: Show/hide the text editor toolbar."
-msgstr ""
+msgstr "|wrench| **ツール**\\ ：テキストエディターのツールを表示または非表示。"
 
 #: ../../user_guide/apps/richtext.rst:16
 msgid ""
 "|picture-o| **Insert**: Add an image to the document. The image can be "
 "chosen in the drive or uploaded. :badge_user:`Logged in users`"
 msgstr ""
+"|picture-o| **挿入**\\ ：画像をドキュメントに追加。画像はドライブから選択する"
+"かアップロードできます。 :badge_user:`ログイン済ユーザー`"
 
 #: ../../user_guide/apps/richtext.rst:19
 msgid "View settings"
-msgstr ""
+msgstr "設定を表示"
 
 #: ../../user_guide/apps/richtext.rst:21
 msgid ""
@@ -57,17 +61,18 @@ msgstr ""
 
 #: ../../user_guide/apps/richtext.rst:23
 msgid "|list-ul| : Show/hide the document outline."
-msgstr ""
+msgstr "|list-ul| : ドキュメントのアウトラインを表示または非表示に設定。"
 
 #: ../../user_guide/apps/richtext.rst:25
 msgid ""
 "|comment| : Show/hide the comments (a red icon when closed indicates that"
 " there are comments)."
-msgstr ""
+msgstr "|comment| : コメントを表示または非表示に設定（コメントがある場合は赤色のアイ"
+"コンが表示されます）。"
 
 #: ../../user_guide/apps/richtext.rst:27
 msgid "|expand| : Use the full width of the window for the text editor."
-msgstr ""
+msgstr "|expand|：テキストエディターをウィンドウ全体の幅に広げます。"
 
 #: ../../user_guide/apps/richtext.rst:29
 msgid "|compress| : Use reduced width \"page mode\" for the text editor."
@@ -82,15 +87,15 @@ msgstr ""
 
 #: ../../user_guide/apps/richtext.rst:33
 msgid "|file-o| **File** > |cog| **Document Settings**."
-msgstr ""
+msgstr "|file-o| **ファイル** > |cog| **ドキュメントの設定**\\ 。"
 
 #: ../../user_guide/apps/richtext.rst:36
 msgid "Editing"
-msgstr ""
+msgstr "編集"
 
 #: ../../user_guide/apps/richtext.rst:39
 msgid "Headings"
-msgstr ""
+msgstr "見出し"
 
 #: ../../user_guide/apps/richtext.rst:41
 msgid ""
@@ -113,7 +118,7 @@ msgstr ""
 
 #: ../../user_guide/apps/richtext.rst:48
 msgid "Paragraphs"
-msgstr ""
+msgstr "段落"
 
 #: ../../user_guide/apps/richtext.rst:50
 msgid ""
@@ -124,47 +129,47 @@ msgstr ""
 
 #: ../../user_guide/apps/richtext.rst:53
 msgid "Import/Export"
-msgstr ""
+msgstr "インポート/エクスポート"
 
 #: ../../user_guide/apps/richtext.rst:55
 msgid "|file-o| **File** > |upload| **Import**"
-msgstr ""
+msgstr "|file-o| **ファイル** > |upload| **インポート**"
 
 #: ../../user_guide/apps/richtext.rst:56
 msgid "Supported formats: ``.html``."
-msgstr ""
+msgstr "サポートするフォーマット：\\ ``.html``\\ 。"
 
 #: ../../user_guide/apps/richtext.rst:58
 msgid "|file-o| **File** > |download| **Export**"
-msgstr ""
+msgstr "|file-o| **ファイル** > |download| **エクスポート**"
 
 #: ../../user_guide/apps/richtext.rst:59
 msgid "Supported formats: ``.html``, ``.doc``."
-msgstr ""
+msgstr "サポートするフォーマット：\\ ``.html``\\ と\\ ``.doc``\\ 。"
 
 #: ../../user_guide/apps/richtext.rst:61
 msgid "To print or export a PDF:"
-msgstr ""
+msgstr "以下の方法で印刷あるいはPDFをエクスポートできます。"
 
 #: ../../user_guide/apps/richtext.rst:63
 msgid "|file-o| **File** > |print| **Print**."
-msgstr ""
+msgstr "|file-o| **ファイル** > |print| **印刷**。"
 
 #: ../../user_guide/apps/richtext.rst:64
 msgid "Select your printer or “print to file”."
-msgstr ""
+msgstr "プリンターを選択するか、ファイルで出力。"
 
 #: ../../user_guide/apps/richtext.rst:67
 msgid "Comments"
-msgstr ""
+msgstr "コメント"
 
 #: ../../user_guide/apps/richtext.rst:69
 msgid "To comment on a part of the text:"
-msgstr ""
+msgstr "テキストには以下の方法でコメントできます。"
 
 #: ../../user_guide/apps/richtext.rst:71
 msgid "Select the text to comment."
-msgstr ""
+msgstr "コメントする対象のテキストを選択。"
 
 #: ../../user_guide/apps/richtext.rst:72
 msgid ""
@@ -174,23 +179,23 @@ msgstr ""
 
 #: ../../user_guide/apps/richtext.rst:74
 msgid "Write the comment."
-msgstr ""
+msgstr "コメントを書く。"
 
 #: ../../user_guide/apps/richtext.rst:75
 msgid "|send-o| **Submit**."
-msgstr ""
+msgstr "|send-o| **送信**。"
 
 #: ../../user_guide/apps/richtext.rst:77
 msgid "Click on a comment to select it, then:"
-msgstr ""
+msgstr "コメントをクリックして選択した後、"
 
 #: ../../user_guide/apps/richtext.rst:79
 msgid "|reply| **Reply**: Adds a comment as a response."
-msgstr ""
+msgstr "|reply| **返信**：コメントを返信として追加。"
 
 #: ../../user_guide/apps/richtext.rst:80
 msgid "|check| **Resolve**: Deletes the comment after confirmation."
-msgstr ""
+msgstr "|check| **解決**：コメントを確認後削除。"
 
 #: ../../user_guide/apps/richtext.rst:82
 msgid ""
@@ -200,12 +205,12 @@ msgstr ""
 
 #: ../../user_guide/apps/richtext.rst:85
 msgid "You receive notifications when:"
-msgstr ""
+msgstr "以下の場合に通知を受信します。"
 
 #: ../../user_guide/apps/richtext.rst:87
 msgid "Someone replies to one of your comments."
-msgstr ""
+msgstr "誰かがあなたのコメントに返信した場合。"
 
 #: ../../user_guide/apps/richtext.rst:88
 msgid "Someone mentions you in a comment."
-msgstr ""
+msgstr "誰かがあなたをコメントでメンションした場合。"
